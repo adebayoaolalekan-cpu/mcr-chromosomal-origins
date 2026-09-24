@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.ckp.gz
+*.bak
+.DS_Store
