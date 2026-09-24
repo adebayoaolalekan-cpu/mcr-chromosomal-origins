@@ -1,0 +1,162 @@
+[
+ {
+  "site": "E246",
+  "col": 360,
+  "mcr": "E",
+  "mcr_pct": 100.0,
+  "epta": "E",
+  "epta_pct": 100.0,
+  "chrom": "E",
+  "chrom_pct": 100.0
+ },
+ {
+  "site": "C281",
+  "col": 407,
+  "mcr": "C",
+  "mcr_pct": 100.0,
+  "epta": "C",
+  "epta_pct": 100.0,
+  "chrom": "C",
+  "chrom_pct": 66.7
+ },
+ {
+  "site": "S284",
+  "col": 410,
+  "mcr": "A",
+  "mcr_pct": 63.6,
+  "epta": "A",
+  "epta_pct": 58.5,
+  "chrom": "A",
+  "chrom_pct": 47.3
+ },
+ {
+  "site": "T285",
+  "col": 411,
+  "mcr": "T",
+  "mcr_pct": 100.0,
+  "epta": "T",
+  "epta_pct": 100.0,
+  "chrom": "T",
+  "chrom_pct": 100.0
+ },
+ {
+  "site": "C291",
+  "col": 417,
+  "mcr": "C",
+  "mcr_pct": 100.0,
+  "epta": "C",
+  "epta_pct": 100.0,
+  "chrom": "C",
+  "chrom_pct": 66.7
+ },
+ {
+  "site": "N329",
+  "col": 460,
+  "mcr": "N",
+  "mcr_pct": 45.5,
+  "epta": "D",
+  "epta_pct": 78.5,
+  "chrom": "D",
+  "chrom_pct": 34.0
+ },
+ {
+  "site": "K333",
+  "col": 464,
+  "mcr": "K",
+  "mcr_pct": 100.0,
+  "epta": "K",
+  "epta_pct": 100.0,
+  "chrom": "K",
+  "chrom_pct": 44.7
+ },
+ {
+  "site": "C356",
+  "col": 490,
+  "mcr": "C",
+  "mcr_pct": 100.0,
+  "epta": "C",
+  "epta_pct": 100.0,
+  "chrom": "C",
+  "chrom_pct": 43.3
+ },
+ {
+  "site": "C364",
+  "col": 499,
+  "mcr": "C",
+  "mcr_pct": 100.0,
+  "epta": "C",
+  "epta_pct": 100.0,
+  "chrom": "C",
+  "chrom_pct": 43.3
+ },
+ {
+  "site": "H390",
+  "col": 560,
+  "mcr": "H",
+  "mcr_pct": 100.0,
+  "epta": "H",
+  "epta_pct": 100.0,
+  "chrom": "H",
+  "chrom_pct": 100.0
+ },
+ {
+  "site": "H395",
+  "col": 565,
+  "mcr": "H",
+  "mcr_pct": 100.0,
+  "epta": "H",
+  "epta_pct": 100.0,
+  "chrom": "H",
+  "chrom_pct": 100.0
+ },
+ {
+  "site": "C414",
+  "col": 584,
+  "mcr": "C",
+  "mcr_pct": 100.0,
+  "epta": "C",
+  "epta_pct": 100.0,
+  "chrom": "C",
+  "chrom_pct": 66.7
+ },
+ {
+  "site": "C422",
+  "col": 594,
+  "mcr": "C",
+  "mcr_pct": 100.0,
+  "epta": "C",
+  "epta_pct": 100.0,
+  "chrom": "C",
+  "chrom_pct": 66.7
+ },
+ {
+  "site": "D465",
+  "col": 643,
+  "mcr": "D",
+  "mcr_pct": 100.0,
+  "epta": "D",
+  "epta_pct": 100.0,
+  "chrom": "D",
+  "chrom_pct": 100.0
+ },
+ {
+  "site": "H466",
+  "col": 644,
+  "mcr": "H",
+  "mcr_pct": 100.0,
+  "epta": "H",
+  "epta_pct": 100.0,
+  "chrom": "H",
+  "chrom_pct": 100.0
+ },
+ {
+  "site": "H478",
+  "col": 662,
+  "mcr": "H",
+  "mcr_pct": 100.0,
+  "epta": "H",
+  "epta_pct": 100.0,
+  "chrom": "H",
+  "chrom_pct": 68.7
+ }
+]

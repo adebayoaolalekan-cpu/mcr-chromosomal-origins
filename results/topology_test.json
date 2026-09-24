@@ -1,0 +1,12 @@
+{
+ "ml_lnl": -44382.41893,
+ "con_lnl": -45207.22124,
+ "deltaL": 824.8,
+ "p_AU": 8.11e-06,
+ "p_KH": 0.0,
+ "p_SH": 0.0,
+ "c_ELW": 7.15e-283,
+ "model": "LG+F+I+R6",
+ "modelfinder": "LG+F+I+R6",
+ "con_iterations": 60
+}

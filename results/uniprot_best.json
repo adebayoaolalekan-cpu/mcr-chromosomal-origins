@@ -1,0 +1,57 @@
+{
+ "MCR-1.1": [
+  62.4,
+  98.7,
+  "A0A220T316_Moraxella_sp_MSG13C03_mcr1like"
+ ],
+ "MCR-2.1": [
+  64.1,
+  87.9,
+  "A0A220T317_Moraxella_sp_MSG47C17_mcr6like"
+ ],
+ "MCR-3.1": [
+  66.9,
+  95.0,
+  "A0ABX6NRT3_Aeromonas_media_MCR36like"
+ ],
+ "MCR-4.1": [
+  80.2,
+  81.5,
+  "A3D4D9_Shewanella_baltica_OS155"
+ ],
+ "MCR-5.1": [
+  45.1,
+  100.0,
+  "A0A2R3NW71_Aeromonas_hydrophila_mcr5like"
+ ],
+ "MCR-6.1": [
+  65.1,
+  100.0,
+  "A0A220T317_Moraxella_sp_MSG47C17_mcr6like"
+ ],
+ "MCR-7.1": [
+  78.3,
+  69.5,
+  "A0ABX6NRT3_Aeromonas_media_MCR36like"
+ ],
+ "MCR-8.1": [
+  47.9,
+  42.9,
+  "A0A380BUX4_Shewanella_algae_eptA"
+ ],
+ "MCR-9.1": [
+  99.0,
+  65.7,
+  "A0ABX6NRT3_Aeromonas_media_MCR36like"
+ ],
+ "MCR-10.1": [
+  84.6,
+  63.3,
+  "A0ABX6NRT3_Aeromonas_media_MCR36like"
+ ],
+ "MCR-12.1": [
+  41.0,
+  38.2,
+  "A0A2S1CRZ0_Moraxella_porci_mcrPOR"
+ ]
+}

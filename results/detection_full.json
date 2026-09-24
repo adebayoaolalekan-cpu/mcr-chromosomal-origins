@@ -1,0 +1,759 @@
+{
+ "n_query": 178,
+ "n_scored": 175,
+ "cutoffs": {
+  "mcr-1": 1276.8,
+  "mcr-10": 1282.6,
+  "mcr-2": 1279.3,
+  "mcr-3": 1104.6,
+  "mcr-4": 1282.0,
+  "mcr-5": 1323.3,
+  "mcr-8": 1338.7,
+  "mcr-9": 1311.2
+ },
+ "detected": [
+  "A0A220T316_Moraxella_sp_MSG13C03_mcr1like",
+  "A0A2R3NW71_Aeromonas_hydrophila_mcr5like",
+  "A0ABX6NRT3_Aeromonas_media_MCR36like"
+ ],
+ "best": {
+  "A0A220T316_Moraxella_sp_MSG13C03_mcr1like": [
+   "mcr-1",
+   1283.8
+  ],
+  "A0A220T317_Moraxella_sp_MSG47C17_mcr6like": [
+   "mcr-2",
+   1159.7
+  ],
+  "WP_490288700.1|Faucicola_osloensis": [
+   "mcr-2",
+   816.3
+  ],
+  "WP_284034866.1|Moraxellaceae": [
+   "mcr-2",
+   817.5
+  ],
+  "A0A9X2A2D0_Moraxella_tetraodonis": [
+   "mcr-2",
+   814.1
+  ],
+  "A0A2S1CRZ0_Moraxella_porci_mcrPOR": [
+   "mcr-2",
+   783.6
+  ],
+  "A0ABY0BLA0_MORCA_Moraxella_catarrhalis_sulfatase": [
+   "mcr-2",
+   749.9
+  ],
+  "A0ACG9E1F0_MORCA_Moraxella_catarrhalis_eptA": [
+   "mcr-2",
+   745.0
+  ],
+  "WP_507244468.1|Campylobacter_sp": [
+   "mcr-1",
+   464.4
+  ],
+  "WP_463893905.1|Pseudomonas": [
+   "mcr-3",
+   461.0
+  ],
+  "WP_498980395.1|Gammaproteobacteria": [
+   "mcr-3",
+   459.2
+  ],
+  "WP_232863754.1|Buttiauxella_cochleicola": [
+   "mcr-3",
+   518.1
+  ],
+  "WP_507779059.1|Pseudomonas_sp_RC25-4": [
+   "mcr-8",
+   478.2
+  ],
+  "WP_363510943.1|Burkholderia_sp_LMU1-1-11": [
+   "mcr-8",
+   462.6
+  ],
+  "A0A3A5KAG0_Buttiauxella_izardii_eptA": [
+   "mcr-3",
+   512.4
+  ],
+  "WP_498532122.1|Cedecea_sp_Ae19-4": [
+   "mcr-3",
+   511.7
+  ],
+  "WP_499084076.1|Lelliottia_jeotgali": [
+   "mcr-3",
+   452.3
+  ],
+  "WP_463199511.1|Moraxella_sp_I5G": [
+   "mcr-3",
+   454.1
+  ],
+  "WP_103696839.1|Pseudomonadota": [
+   "mcr-8",
+   460.7
+  ],
+  "A0A380BUX4_Shewanella_algae_eptA": [
+   "mcr-4",
+   819.9
+  ],
+  "WP_442820864.1|Yersinia": [
+   "mcr-8",
+   514.9
+  ],
+  "WP_232921000.1|Buttiauxella_cochleicola": [
+   "mcr-9",
+   1170.0
+  ],
+  "WP_509188741.1|Serratia_rubidaea": [
+   "mcr-8",
+   526.0
+  ],
+  "WP_280172752.1|Enterobacterales": [
+   "mcr-8",
+   517.7
+  ],
+  "WP_504339545.1|Lelliottia_sp": [
+   "mcr-3",
+   514.5
+  ],
+  "A0A2R3NW71_Aeromonas_hydrophila_mcr5like": [
+   "mcr-5",
+   1329.8
+  ],
+  "WP_493767314.1|Edwardsiella_tarda": [
+   "mcr-10",
+   709.5
+  ],
+  "WP_455507789.1|Enterobacter": [
+   "mcr-3",
+   531.3
+  ],
+  "NP_418538.2|Escherichia_coli_str_K-12_substr_MG1655": [
+   "mcr-8",
+   485.6
+  ],
+  "WP_508921828.1|Escherichia_coli": [
+   "mcr-8",
+   490.3
+  ],
+  "WP_001309144.1|Pseudomonadati": [
+   "mcr-8",
+   489.0
+  ],
+  "WP_497148372.1|Plesiomonas_shigelloides": [
+   "mcr-9",
+   689.3
+  ],
+  "WP_508977199.1|Escherichia_coli": [
+   "mcr-8",
+   485.6
+  ],
+  "WP_509412112.1|Escherichia_coli": [
+   "mcr-8",
+   487.1
+  ],
+  "WP_002216735.1|Neisseria": [
+   "mcr-3",
+   442.5
+  ],
+  "WP_039484537.1|Pectobacterium_parvum": [
+   "mcr-9",
+   508.3
+  ],
+  "WP_496202703.1|Ewingella_sp_AOP9-I1-14": [
+   "mcr-10",
+   710.4
+  ],
+  "WP_509680243.1|Vibrio_vulnificus": [
+   "mcr-10",
+   616.5
+  ],
+  "WP_509045700.1|Klebsiella_ornithinolytica": [
+   "mcr-3",
+   463.7
+  ],
+  "L2F7W5_Moraxella_macacae": [
+   "mcr-3",
+   441.5
+  ],
+  "WP_504432666.1|Rahnella_perminowiae": [
+   "mcr-10",
+   709.8
+  ],
+  "WP_509126031.1|Acinetobacter_kookii": [
+   "mcr-3",
+   392.6
+  ],
+  "WP_210182583.1|Dickeya_parazeae": [
+   "mcr-3",
+   494.3
+  ],
+  "WP_224042345.1|Cupriavidus_respiraculi": [
+   "mcr-9",
+   430.4
+  ],
+  "WP_508667667.1|Citrobacter_sedlakii": [
+   "mcr-10",
+   471.2
+  ],
+  "WP_155021951.1|Citrobacter_pasteurii": [
+   "mcr-8",
+   483.3
+  ],
+  "WP_320529772.1|Leclercia": [
+   "mcr-3",
+   493.8
+  ],
+  "WP_509401980.1|Citrobacter_freundii": [
+   "mcr-8",
+   469.5
+  ],
+  "WP_503987387.1|Salmonella_enterica": [
+   "mcr-3",
+   467.7
+  ],
+  "WP_509676488.1|Vibrio_metoecus": [
+   "mcr-10",
+   623.0
+  ],
+  "WP_509467498.1|Salmonella_enterica": [
+   "mcr-8",
+   467.1
+  ],
+  "A0ABX6NRT3_Aeromonas_media_MCR36like": [
+   "mcr-3",
+   1285.0
+  ],
+  "WP_497148305.1|Plesiomonas_shigelloides": [
+   "mcr-10",
+   615.9
+  ],
+  "WP_509683000.1|Vibrio_navarrensis": [
+   "mcr-10",
+   650.7
+  ],
+  "WP_472681338.1|Pluralibacter_gergoviae": [
+   "mcr-8",
+   462.5
+  ],
+  "WP_454751270.1|Cupriavidus": [
+   "mcr-5",
+   498.1
+  ],
+  "WP_338463516.1|Franconibacter": [
+   "mcr-3",
+   467.2
+  ],
+  "A0A2T2Y6I5_Kluyvera_genomosp2_eptA": [
+   "mcr-3",
+   481.1
+  ],
+  "WP_490767992.1|Kosakonia_cowanii": [
+   "mcr-3",
+   469.3
+  ],
+  "WP_227311958.1|Cupriavidus_sp_MP-37": [
+   "mcr-5",
+   486.9
+  ],
+  "A0ABQ2QZX7_Shewanella_litoralis": [
+   "mcr-10",
+   534.8
+  ],
+  "A0ABQ2QTU1_Shewanella_ulleungensis": [
+   "mcr-10",
+   534.6
+  ],
+  "WP_496226078.1|Hafnia_alvei": [
+   "mcr-10",
+   718.1
+  ],
+  "A0A1B7JEX8_Kluyvera_georgiana_eptA": [
+   "mcr-3",
+   484.0
+  ],
+  "A0ACH4F3L4_Shewanella_basaltis": [
+   "mcr-10",
+   544.9
+  ],
+  "T0R4P1_Aeromonas_salmonicida_pectinolytica_eptA": [
+   "mcr-9",
+   767.8
+  ],
+  "A0ABX6DQN3_Kluyvera_intermedia_eptA": [
+   "mcr-3",
+   477.5
+  ],
+  "A0A6G9RPU7_Kluyvera_genomosp3_eptA": [
+   "mcr-3",
+   485.6
+  ],
+  "WP_508824434.1|Erwinia_sp_VRR173": [
+   "mcr-3",
+   457.9
+  ],
+  "WP_497766411.1|Kluyvera_fluvialis": [
+   "mcr-3",
+   484.4
+  ],
+  "WP_038020592.1|Tatumella_morbirosei": [
+   "mcr-8",
+   464.4
+  ],
+  "A0ABR6RP60_Kluyvera_sichuanensis_eptA": [
+   "mcr-3",
+   473.7
+  ],
+  "WP_437430954.1|Enterobacteriaceae": [
+   "mcr-8",
+   466.1
+  ],
+  "A0ABQ1IM52_Shewanella_inventionis": [
+   "mcr-10",
+   532.3
+  ],
+  "WP_508945341.1|Aeromonas_sobria": [
+   "mcr-9",
+   794.5
+  ],
+  "WP_509684683.1|Vibrio_mimicus": [
+   "mcr-10",
+   624.9
+  ],
+  "WP_498358912.1|Shewanella_frigidimarina": [
+   "mcr-10",
+   532.4
+  ],
+  "WP_499669208.1|Aeromonas_jandaei": [
+   "mcr-3",
+   762.3
+  ],
+  "WP_506698367.1|Phytobacter_diazotrophicus": [
+   "mcr-3",
+   469.9
+  ],
+  "A0ABM7DAI0_Shewanella_khirikhana_eptA": [
+   "mcr-4",
+   747.7
+  ],
+  "WP_509425983.1|Cronobacter_turicensis": [
+   "mcr-3",
+   481.1
+  ],
+  "A3D4D9_Shewanella_baltica_OS155": [
+   "mcr-4",
+   1093.5
+  ],
+  "A0ABQ2Q3C4_Shewanella_saliphila": [
+   "mcr-10",
+   518.6
+  ],
+  "WP_509065747.1|Pantoea_brenneri": [
+   "mcr-3",
+   482.3
+  ],
+  "A0AB35X6N7_Kluyvera_ascorbata_eptA": [
+   "mcr-3",
+   471.6
+  ],
+  "A0A220ULZ5_Shewanella_bicestrii": [
+   "mcr-4",
+   1083.6
+  ],
+  "WP_499756849.1|Aeromonas_rivipollensis": [
+   "mcr-9",
+   764.8
+  ],
+  "WP_220053229.1|Shewanella": [
+   "mcr-4",
+   1076.9
+  ],
+  "WP_506355363.1|Shewanella_sp": [
+   "mcr-3",
+   487.1
+  ],
+  "A0ACH3EHW4_Aeromonas_mytilicola": [
+   "mcr-9",
+   760.1
+  ],
+  "WP_509654125.1|Vibrio_cholerae": [
+   "mcr-10",
+   610.0
+  ],
+  "WP_261396260.1|Citrobacter_freundii": [
+   "mcr-9",
+   977.2
+  ],
+  "WP_069368207.1|Enterobacterales": [
+   "mcr-10",
+   174.9
+  ],
+  "WP_497230535.1|Hafnia_psychrotolerans": [
+   "mcr-4",
+   156.2
+  ],
+  "WP_481637702.1|Franconibacter_pulveris": [
+   "mcr-5",
+   161.6
+  ],
+  "WP_496203258.1|Ewingella_sp_AOP9-I1-14": [
+   "mcr-4",
+   170.8
+  ],
+  "WP_012004603.1|Enterobacterales": [
+   "mcr-4",
+   159.9
+  ],
+  "WP_503275303.1|Dickeya_dadantii": [
+   "mcr-4",
+   153.6
+  ],
+  "WP_312998569.1|Leclercia": [
+   "mcr-5",
+   142.3
+  ],
+  "WP_508669306.1|Citrobacter_sedlakii": [
+   "mcr-5",
+   141.1
+  ],
+  "WP_106440961.1|Yersinia_pseudotuberculosis_complex": [
+   "mcr-9",
+   146.9
+  ],
+  "WP_509059598.1|Morganella_morganii": [
+   "mcr-4",
+   189.8
+  ],
+  "WP_165708168.1|Pectobacterium_parvum": [
+   "mcr-4",
+   155.8
+  ],
+  "WP_416250066.1|Erwinia_sp_PPS120": [
+   "mcr-10",
+   157.0
+  ],
+  "WP_509427568.1|Cronobacter_universalis": [
+   "mcr-5",
+   169.5
+  ],
+  "WP_508222309.1|Enterobacter_kobei": [
+   "mcr-5",
+   137.5
+  ],
+  "WP_232922310.1|Buttiauxella_cochleicola": [
+   "mcr-5",
+   153.1
+  ],
+  "WP_509059624.1|Escherichia_coli": [
+   "mcr-5",
+   144.9
+  ],
+  "NP_418002.2|Escherichia_coli_str_K-12_substr_MG1655": [
+   "mcr-5",
+   144.3
+  ],
+  "WP_001269196.1|Pseudomonadati": [
+   "mcr-5",
+   143.3
+  ],
+  "WP_508920581.1|Escherichia_coli": [
+   "mcr-5",
+   143.5
+  ],
+  "WP_509402429.1|Citrobacter_freundii": [
+   "mcr-4",
+   143.8
+  ],
+  "WP_490767110.1|Kosakonia_cowanii": [
+   "mcr-5",
+   151.5
+  ],
+  "WP_437434076.1|Enterobacteriaceae": [
+   "mcr-5",
+   151.5
+  ],
+  "WP_499059346.1|Phytobacter_ursingii": [
+   "mcr-5",
+   154.1
+  ],
+  "WP_504359529.1|Salmonella_enterica": [
+   "mcr-4",
+   143.3
+  ],
+  "WP_503703873.1|Salmonella_enterica": [
+   "mcr-5",
+   146.1
+  ],
+  "WP_304372782.1|Tatumella_ptyseos": [
+   "mcr-3",
+   148.0
+  ],
+  "WP_503987587.1|Salmonella_enterica": [
+   "mcr-4",
+   144.5
+  ],
+  "WP_336819346.1|Enterobacteriaceae": [
+   "mcr-5",
+   139.5
+  ],
+  "WP_503034493.1|Pantoea_dispersa": [
+   "mcr-4",
+   170.9
+  ],
+  "WP_430892645.1|Kosakonia_sp_N21": [
+   "mcr-4",
+   161.4
+  ],
+  "WP_497768878.1|Kluyvera_fluvialis": [
+   "mcr-10",
+   151.7
+  ],
+  "WP_212714918.1|Tatumella": [
+   "mcr-4",
+   154.5
+  ],
+  "WP_504970690.1|Salmonella_enterica": [
+   "mcr-5",
+   121.8
+  ],
+  "WP_212708183.1|Tatumella": [
+   "mcr-4",
+   150.5
+  ],
+  "WP_294901111.1|Tatumella_sp_UBA2305": [
+   "mcr-4",
+   155.1
+  ],
+  "WP_493609079.1|Providencia_manganoxydans": [
+   "mcr-8",
+   70.0
+  ],
+  "WP_008502676.1|Enterobacter": [
+   "mcr-4",
+   55.9
+  ],
+  "WP_481637740.1|Franconibacter_pulveris": [
+   "mcr-3",
+   59.6
+  ],
+  "WP_494494284.1|Cedecea_sp_B14": [
+   "mcr-5",
+   66.9
+  ],
+  "WP_369492371.1|Salmonella_enterica": [
+   "mcr-3",
+   66.7
+  ],
+  "WP_507560833.1|Pseudomonas_sp": [
+   "mcr-10",
+   68.3
+  ],
+  "WP_498979891.1|Gammaproteobacteria": [
+   "mcr-8",
+   84.6
+  ],
+  "WP_490535502.1|Proteus_mirabilis": [
+   "mcr-10",
+   74.3
+  ],
+  "NP_418390.1|Escherichia_coli_str_K-12_substr_MG1655": [
+   "mcr-5",
+   66.2
+  ],
+  "WP_069369415.1|Enterobacterales": [
+   "mcr-3",
+   74.5
+  ],
+  "WP_499239275.1|Rahnella_variigena": [
+   "mcr-5",
+   69.7
+  ],
+  "WP_039485950.1|Pectobacterium_parvum": [
+   "mcr-5",
+   72.2
+  ],
+  "WP_504686596.1|Pluralibacter_gergoviae": [
+   "mcr-5",
+   60.4
+  ],
+  "WP_508931853.1|Campylobacter_sp": [
+   "mcr-4",
+   64.9
+  ],
+  "WP_132353712.1|Photorhabdus_khanii": [
+   "mcr-4",
+   57.3
+  ],
+  "WP_506500245.1|Providencia_hangzhouensis": [
+   "mcr-3",
+   56.4
+  ],
+  "WP_133632104.1|Lelliottia_sp": [
+   "mcr-10",
+   56.0
+  ],
+  "WP_085541943.1|Cedecea_sp_NFIX57": [
+   "mcr-1",
+   28.6
+  ],
+  "WP_509483209.1|Cronobacter_sakazakii": [
+   "mcr-1",
+   26.9
+  ],
+  "WP_112204947.1|Kluyvera_cryocrescens": [
+   "mcr-10",
+   65.0
+  ],
+  "WP_320530243.1|Leclercia": [
+   "mcr-1",
+   21.9
+  ],
+  "WP_472943011.1|Yersinia_enterocolitica": [
+   "mcr-8",
+   26.1
+  ],
+  "WP_503489110.1|Buttiauxella_cochleicola": [
+   "mcr-8",
+   51.8
+  ],
+  "WP_489146167.1|Hafnia_paralvei": [
+   "mcr-10",
+   69.5
+  ],
+  "WP_321178176.1|Neisseriaceae": [
+   "mcr-8",
+   47.5
+  ],
+  "WP_509374736.1|Escherichia_coli": [
+   "mcr-10",
+   33.3
+  ],
+  "WP_135171872.1|Enterobacteriaceae": [
+   "mcr-10",
+   29.1
+  ],
+  "WP_506159706.1|Serratia_marcescens": [
+   "mcr-10",
+   23.5
+  ],
+  "WP_508475707.1|Escherichia_coli": [
+   "mcr-10",
+   33.3
+  ],
+  "WP_446469856.1|Xenorhabdus_stockiae": [
+   "mcr-5",
+   28.1
+  ],
+  "WP_497766361.1|Kluyvera_fluvialis": [
+   "mcr-10",
+   29.2
+  ],
+  "WP_435982576.1|Yokenella_regensburgei": [
+   "mcr-4",
+   26.1
+  ],
+  "WP_103823496.1|unclassified_Leclercia": [
+   "mcr-4",
+   27.2
+  ],
+  "WP_508668222.1|Citrobacter_sedlakii": [
+   "mcr-4",
+   27.5
+  ],
+  "WP_472681345.1|Pluralibacter_gergoviae": [
+   "mcr-9",
+   24.6
+  ],
+  "WP_155020850.1|Citrobacter": [
+   "mcr-9",
+   26.9
+  ],
+  "WP_509390844.1|Klebsiella_pneumoniae": [
+   "mcr-9",
+   28.7
+  ],
+  "WP_499056736.1|Phytobacter_ursingii": [
+   "mcr-4",
+   30.2
+  ],
+  "WP_490768032.1|Kosakonia_cowanii": [
+   "mcr-4",
+   29.9
+  ],
+  "WP_509190099.1|Enterobacter_roggenkampii": [
+   "mcr-9",
+   29.4
+  ],
+  "WP_042201572.1|Enterobacteriaceae": [
+   "mcr-9",
+   26.4
+  ],
+  "WP_113228290.1|Enterobacteriaceae": [
+   "mcr-9",
+   26.7
+  ],
+  "WP_001550877.1|Pseudomonadati": [
+   "mcr-9",
+   25.8
+  ],
+  "WP_509060339.1|Escherichia_coli": [
+   "mcr-9",
+   25.9
+  ],
+  "WP_137503927.1|Enterobacteriaceae": [
+   "mcr-9",
+   25.8
+  ],
+  "OpgE_ECOLI_P75785": [
+   "mcr-9",
+   25.8
+  ],
+  "WP_032217775.1|Enterobacteriaceae": [
+   "mcr-9",
+   25.8
+  ],
+  "WP_505564214.1|Salmonella_enterica": [
+   "mcr-4",
+   22.9
+  ]
+ },
+ "top_undetected": [
+  [
+   "WP_232921000.1|Buttiauxella_cochleicola",
+   "mcr-9",
+   1170.0,
+   1311.2
+  ],
+  [
+   "A0A220T317_Moraxella_sp_MSG47C17_mcr6like",
+   "mcr-2",
+   1159.7,
+   1279.3
+  ],
+  [
+   "A3D4D9_Shewanella_baltica_OS155",
+   "mcr-4",
+   1093.5,
+   1282.0
+  ],
+  [
+   "A0A220ULZ5_Shewanella_bicestrii",
+   "mcr-4",
+   1083.6,
+   1282.0
+  ],
+  [
+   "WP_220053229.1|Shewanella",
+   "mcr-4",
+   1076.9,
+   1282.0
+  ],
+  [
+   "WP_261396260.1|Citrobacter_freundii",
+   "mcr-9",
+   977.2,
+   1311.2
+  ]
+ ]
+}

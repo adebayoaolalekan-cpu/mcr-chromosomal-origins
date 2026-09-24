@@ -1,0 +1,937 @@
+{
+ "MCR-1.1": {
+  "node": "Node130",
+  "states": {
+   "E246": {
+    "state": "E",
+    "pp": 1.0,
+    "mcr1_residue": "E"
+   },
+   "C281": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "S284": {
+    "state": "S",
+    "pp": 1.0,
+    "mcr1_residue": "S"
+   },
+   "T285": {
+    "state": "T",
+    "pp": 1.0,
+    "mcr1_residue": "T"
+   },
+   "C291": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "N329": {
+    "state": "N",
+    "pp": 1.0,
+    "mcr1_residue": "N"
+   },
+   "K333": {
+    "state": "K",
+    "pp": 1.0,
+    "mcr1_residue": "K"
+   },
+   "C356": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C364": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "H390": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H395": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "C414": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C422": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "D465": {
+    "state": "D",
+    "pp": 1.0,
+    "mcr1_residue": "D"
+   },
+   "H466": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H478": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   }
+  }
+ },
+ "MCR-2.1": {
+  "node": "Node131",
+  "states": {
+   "E246": {
+    "state": "E",
+    "pp": 1.0,
+    "mcr1_residue": "E"
+   },
+   "C281": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "S284": {
+    "state": "S",
+    "pp": 1.0,
+    "mcr1_residue": "S"
+   },
+   "T285": {
+    "state": "T",
+    "pp": 1.0,
+    "mcr1_residue": "T"
+   },
+   "C291": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "N329": {
+    "state": "N",
+    "pp": 1.0,
+    "mcr1_residue": "N"
+   },
+   "K333": {
+    "state": "K",
+    "pp": 1.0,
+    "mcr1_residue": "K"
+   },
+   "C356": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C364": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "H390": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H395": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "C414": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C422": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "D465": {
+    "state": "D",
+    "pp": 1.0,
+    "mcr1_residue": "D"
+   },
+   "H466": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H478": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   }
+  }
+ },
+ "MCR-3.1": {
+  "node": "Node111",
+  "states": {
+   "E246": {
+    "state": "E",
+    "pp": 1.0,
+    "mcr1_residue": "E"
+   },
+   "C281": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "S284": {
+    "state": "A",
+    "pp": 1.0,
+    "mcr1_residue": "S"
+   },
+   "T285": {
+    "state": "T",
+    "pp": 1.0,
+    "mcr1_residue": "T"
+   },
+   "C291": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "N329": {
+    "state": "D",
+    "pp": 1.0,
+    "mcr1_residue": "N"
+   },
+   "K333": {
+    "state": "K",
+    "pp": 1.0,
+    "mcr1_residue": "K"
+   },
+   "C356": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C364": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "H390": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H395": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "C414": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C422": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "D465": {
+    "state": "D",
+    "pp": 1.0,
+    "mcr1_residue": "D"
+   },
+   "H466": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H478": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   }
+  }
+ },
+ "MCR-4.1": {
+  "node": "Node104",
+  "states": {
+   "E246": {
+    "state": "E",
+    "pp": 1.0,
+    "mcr1_residue": "E"
+   },
+   "C281": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "S284": {
+    "state": "A",
+    "pp": 1.0,
+    "mcr1_residue": "S"
+   },
+   "T285": {
+    "state": "T",
+    "pp": 1.0,
+    "mcr1_residue": "T"
+   },
+   "C291": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "N329": {
+    "state": "D",
+    "pp": 1.0,
+    "mcr1_residue": "N"
+   },
+   "K333": {
+    "state": "K",
+    "pp": 1.0,
+    "mcr1_residue": "K"
+   },
+   "C356": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C364": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "H390": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H395": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "C414": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C422": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "D465": {
+    "state": "D",
+    "pp": 1.0,
+    "mcr1_residue": "D"
+   },
+   "H466": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H478": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   }
+  }
+ },
+ "MCR-5.1": {
+  "node": "Node139",
+  "states": {
+   "E246": {
+    "state": "E",
+    "pp": 1.0,
+    "mcr1_residue": "E"
+   },
+   "C281": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "S284": {
+    "state": "N",
+    "pp": 0.427,
+    "mcr1_residue": "S"
+   },
+   "T285": {
+    "state": "T",
+    "pp": 1.0,
+    "mcr1_residue": "T"
+   },
+   "C291": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "N329": {
+    "state": "Q",
+    "pp": 0.938,
+    "mcr1_residue": "N"
+   },
+   "K333": {
+    "state": "K",
+    "pp": 1.0,
+    "mcr1_residue": "K"
+   },
+   "C356": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C364": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "H390": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H395": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "C414": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C422": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "D465": {
+    "state": "D",
+    "pp": 1.0,
+    "mcr1_residue": "D"
+   },
+   "H466": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H478": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   }
+  }
+ },
+ "MCR-6.1": {
+  "node": "Node131",
+  "states": {
+   "E246": {
+    "state": "E",
+    "pp": 1.0,
+    "mcr1_residue": "E"
+   },
+   "C281": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "S284": {
+    "state": "S",
+    "pp": 1.0,
+    "mcr1_residue": "S"
+   },
+   "T285": {
+    "state": "T",
+    "pp": 1.0,
+    "mcr1_residue": "T"
+   },
+   "C291": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "N329": {
+    "state": "N",
+    "pp": 1.0,
+    "mcr1_residue": "N"
+   },
+   "K333": {
+    "state": "K",
+    "pp": 1.0,
+    "mcr1_residue": "K"
+   },
+   "C356": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C364": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "H390": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H395": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "C414": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C422": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "D465": {
+    "state": "D",
+    "pp": 1.0,
+    "mcr1_residue": "D"
+   },
+   "H466": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H478": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   }
+  }
+ },
+ "MCR-7.1": {
+  "node": "Node112",
+  "states": {
+   "E246": {
+    "state": "E",
+    "pp": 1.0,
+    "mcr1_residue": "E"
+   },
+   "C281": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "S284": {
+    "state": "A",
+    "pp": 1.0,
+    "mcr1_residue": "S"
+   },
+   "T285": {
+    "state": "T",
+    "pp": 1.0,
+    "mcr1_residue": "T"
+   },
+   "C291": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "N329": {
+    "state": "D",
+    "pp": 1.0,
+    "mcr1_residue": "N"
+   },
+   "K333": {
+    "state": "K",
+    "pp": 1.0,
+    "mcr1_residue": "K"
+   },
+   "C356": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C364": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "H390": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H395": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "C414": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C422": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "D465": {
+    "state": "D",
+    "pp": 1.0,
+    "mcr1_residue": "D"
+   },
+   "H466": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H478": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   }
+  }
+ },
+ "MCR-8.1": {
+  "node": "Node13",
+  "states": {
+   "E246": {
+    "state": "E",
+    "pp": 1.0,
+    "mcr1_residue": "E"
+   },
+   "C281": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "S284": {
+    "state": "A",
+    "pp": 0.996,
+    "mcr1_residue": "S"
+   },
+   "T285": {
+    "state": "T",
+    "pp": 1.0,
+    "mcr1_residue": "T"
+   },
+   "C291": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "N329": {
+    "state": "D",
+    "pp": 0.745,
+    "mcr1_residue": "N"
+   },
+   "K333": {
+    "state": "K",
+    "pp": 1.0,
+    "mcr1_residue": "K"
+   },
+   "C356": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C364": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "H390": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H395": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "C414": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C422": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "D465": {
+    "state": "D",
+    "pp": 1.0,
+    "mcr1_residue": "D"
+   },
+   "H466": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H478": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   }
+  }
+ },
+ "MCR-9.1": {
+  "node": "Node109",
+  "states": {
+   "E246": {
+    "state": "E",
+    "pp": 1.0,
+    "mcr1_residue": "E"
+   },
+   "C281": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "S284": {
+    "state": "A",
+    "pp": 1.0,
+    "mcr1_residue": "S"
+   },
+   "T285": {
+    "state": "T",
+    "pp": 1.0,
+    "mcr1_residue": "T"
+   },
+   "C291": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "N329": {
+    "state": "D",
+    "pp": 1.0,
+    "mcr1_residue": "N"
+   },
+   "K333": {
+    "state": "K",
+    "pp": 1.0,
+    "mcr1_residue": "K"
+   },
+   "C356": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C364": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "H390": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H395": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "C414": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C422": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "D465": {
+    "state": "D",
+    "pp": 1.0,
+    "mcr1_residue": "D"
+   },
+   "H466": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H478": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   }
+  }
+ },
+ "MCR-10.1": {
+  "node": "Node110",
+  "states": {
+   "E246": {
+    "state": "E",
+    "pp": 1.0,
+    "mcr1_residue": "E"
+   },
+   "C281": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "S284": {
+    "state": "A",
+    "pp": 1.0,
+    "mcr1_residue": "S"
+   },
+   "T285": {
+    "state": "T",
+    "pp": 1.0,
+    "mcr1_residue": "T"
+   },
+   "C291": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "N329": {
+    "state": "D",
+    "pp": 1.0,
+    "mcr1_residue": "N"
+   },
+   "K333": {
+    "state": "K",
+    "pp": 1.0,
+    "mcr1_residue": "K"
+   },
+   "C356": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C364": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "H390": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H395": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "C414": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C422": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "D465": {
+    "state": "D",
+    "pp": 1.0,
+    "mcr1_residue": "D"
+   },
+   "H466": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H478": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   }
+  }
+ },
+ "MCR-12.1": {
+  "node": "Node137",
+  "states": {
+   "E246": {
+    "state": "E",
+    "pp": 1.0,
+    "mcr1_residue": "E"
+   },
+   "C281": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "S284": {
+    "state": "A",
+    "pp": 0.994,
+    "mcr1_residue": "S"
+   },
+   "T285": {
+    "state": "T",
+    "pp": 1.0,
+    "mcr1_residue": "T"
+   },
+   "C291": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "N329": {
+    "state": "N",
+    "pp": 0.998,
+    "mcr1_residue": "N"
+   },
+   "K333": {
+    "state": "K",
+    "pp": 1.0,
+    "mcr1_residue": "K"
+   },
+   "C356": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C364": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "H390": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H395": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "C414": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "C422": {
+    "state": "C",
+    "pp": 1.0,
+    "mcr1_residue": "C"
+   },
+   "D465": {
+    "state": "D",
+    "pp": 1.0,
+    "mcr1_residue": "D"
+   },
+   "H466": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   },
+   "H478": {
+    "state": "H",
+    "pp": 1.0,
+    "mcr1_residue": "H"
+   }
+  }
+ }
+}

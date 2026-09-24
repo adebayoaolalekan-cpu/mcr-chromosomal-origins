@@ -1,0 +1,453 @@
+{
+ "MCR-1.1|NG_050417.1": {
+  "best_incl_partial": {
+   "hit": "A0A220T316_Moraxella_sp_MSG13C03_mcr1like",
+   "local": 98.7,
+   "global": 98.7,
+   "ovl": 541
+  },
+  "best_full_only": {
+   "hit": "A0A220T316_Moraxella_sp_MSG13C03_mcr1like",
+   "local": 98.7,
+   "global": 98.7,
+   "ovl": 541
+  },
+  "top5": [
+   {
+    "hit": "A0A220T316_Moraxella_sp_MSG13C03_mcr1like",
+    "local": 98.7,
+    "global": 98.7
+   },
+   {
+    "hit": "A0A2S1CRZ0_Moraxella_porci_mcrPOR",
+    "local": 62.9,
+    "global": 62.1
+   },
+   {
+    "hit": "WP_490288700.1|Faucicola_osloensis",
+    "local": 62.4,
+    "global": 59.8
+   },
+   {
+    "hit": "A0A9X2A2D0_Moraxella_tetraodonis",
+    "local": 62.0,
+    "global": 59.9
+   },
+   {
+    "hit": "WP_284034866.1|Moraxellaceae",
+    "local": 61.9,
+    "global": 60.8
+   }
+  ]
+ },
+ "MCR-10.1|NG_066767.1": {
+  "best_incl_partial": {
+   "hit": "WP_232921000.1|Buttiauxella_cochleicola",
+   "local": 84.6,
+   "global": 84.6,
+   "ovl": 539
+  },
+  "best_full_only": {
+   "hit": "WP_232921000.1|Buttiauxella_cochleicola",
+   "local": 84.6,
+   "global": 84.6,
+   "ovl": 539
+  },
+  "top5": [
+   {
+    "hit": "WP_232921000.1|Buttiauxella_cochleicola",
+    "local": 84.6,
+    "global": 84.6
+   },
+   {
+    "hit": "A0ABX6NRT3_Aeromonas_media_MCR36like",
+    "local": 63.3,
+    "global": 63.1
+   },
+   {
+    "hit": "WP_508945341.1|Aeromonas_sobria",
+    "local": 57.9,
+    "global": 57.6
+   },
+   {
+    "hit": "WP_499756849.1|Aeromonas_rivipollensis",
+    "local": 57.9,
+    "global": 57.3
+   },
+   {
+    "hit": "A0ACH3EHW4_Aeromonas_mytilicola",
+    "local": 57.9,
+    "global": 57.3
+   }
+  ]
+ },
+ "MCR-12.1|NG_245195.1": {
+  "best_incl_partial": {
+   "hit": "WP_507779059.1|Pseudomonas_sp_RC25-4",
+   "local": 40.6,
+   "global": 39.2,
+   "ovl": 539
+  },
+  "best_full_only": {
+   "hit": "WP_507779059.1|Pseudomonas_sp_RC25-4",
+   "local": 40.6,
+   "global": 39.2,
+   "ovl": 539
+  },
+  "top5": [
+   {
+    "hit": "WP_507779059.1|Pseudomonas_sp_RC25-4",
+    "local": 40.6,
+    "global": 39.2
+   },
+   {
+    "hit": "WP_224042345.1|Cupriavidus_respiraculi",
+    "local": 40.5,
+    "global": 38.4
+   },
+   {
+    "hit": "WP_499084076.1|Lelliottia_jeotgali",
+    "local": 39.5,
+    "global": 38.7
+   },
+   {
+    "hit": "WP_454751270.1|Cupriavidus",
+    "local": 39.4,
+    "global": 37.5
+   },
+   {
+    "hit": "WP_103696839.1|Pseudomonadota",
+    "local": 39.3,
+    "global": 38.2
+   }
+  ]
+ },
+ "MCR-2.1|NG_051171.1": {
+  "best_incl_partial": {
+   "hit": "A0A220T316_Moraxella_sp_MSG13C03_mcr1like",
+   "local": 81.0,
+   "global": 80.6,
+   "ovl": 538
+  },
+  "best_full_only": {
+   "hit": "A0A220T316_Moraxella_sp_MSG13C03_mcr1like",
+   "local": 81.0,
+   "global": 80.6,
+   "ovl": 538
+  },
+  "top5": [
+   {
+    "hit": "A0A220T316_Moraxella_sp_MSG13C03_mcr1like",
+    "local": 81.0,
+    "global": 80.6
+   },
+   {
+    "hit": "WP_490288700.1|Faucicola_osloensis",
+    "local": 64.1,
+    "global": 61.3
+   },
+   {
+    "hit": "A0A9X2A2D0_Moraxella_tetraodonis",
+    "local": 63.9,
+    "global": 61.6
+   },
+   {
+    "hit": "WP_284034866.1|Moraxellaceae",
+    "local": 63.8,
+    "global": 62.6
+   },
+   {
+    "hit": "A0A2S1CRZ0_Moraxella_porci_mcrPOR",
+    "local": 61.8,
+    "global": 61.4
+   }
+  ]
+ },
+ "MCR-3.1|NG_055505.1": {
+  "best_incl_partial": {
+   "hit": "A0ABX6NRT3_Aeromonas_media_MCR36like",
+   "local": 95.0,
+   "global": 94.8,
+   "ovl": 540
+  },
+  "best_full_only": {
+   "hit": "A0ABX6NRT3_Aeromonas_media_MCR36like",
+   "local": 95.0,
+   "global": 94.8,
+   "ovl": 540
+  },
+  "top5": [
+   {
+    "hit": "A0ABX6NRT3_Aeromonas_media_MCR36like",
+    "local": 95.0,
+    "global": 94.8
+   },
+   {
+    "hit": "WP_232921000.1|Buttiauxella_cochleicola",
+    "local": 65.9,
+    "global": 65.6
+   },
+   {
+    "hit": "WP_508945341.1|Aeromonas_sobria",
+    "local": 57.1,
+    "global": 56.7
+   },
+   {
+    "hit": "T0R4P1_Aeromonas_salmonicida_pectinolytica_eptA",
+    "local": 57.1,
+    "global": 56.4
+   },
+   {
+    "hit": "WP_499669208.1|Aeromonas_jandaei",
+    "local": 56.9,
+    "global": 56.6
+   }
+  ]
+ },
+ "MCR-4.1|NG_057470.1": {
+  "best_incl_partial": {
+   "hit": "A3D4D9_Shewanella_baltica_OS155",
+   "local": 81.5,
+   "global": 81.5,
+   "ovl": 541
+  },
+  "best_full_only": {
+   "hit": "A3D4D9_Shewanella_baltica_OS155",
+   "local": 81.5,
+   "global": 81.5,
+   "ovl": 541
+  },
+  "top5": [
+   {
+    "hit": "A3D4D9_Shewanella_baltica_OS155",
+    "local": 81.5,
+    "global": 81.5
+   },
+   {
+    "hit": "A0A220ULZ5_Shewanella_bicestrii",
+    "local": 80.6,
+    "global": 80.6
+   },
+   {
+    "hit": "WP_220053229.1|Shewanella",
+    "local": 80.2,
+    "global": 80.2
+   },
+   {
+    "hit": "A0A380BUX4_Shewanella_algae_eptA",
+    "local": 62.8,
+    "global": 62.4
+   },
+   {
+    "hit": "A0ABM7DAI0_Shewanella_khirikhana_eptA",
+    "local": 58.1,
+    "global": 57.4
+   }
+  ]
+ },
+ "MCR-5.1|NG_055658.1": {
+  "best_incl_partial": {
+   "hit": "WP_454751270.1|Cupriavidus",
+   "local": 45.1,
+   "global": 43.0,
+   "ovl": 543
+  },
+  "best_full_only": {
+   "hit": "WP_454751270.1|Cupriavidus",
+   "local": 45.1,
+   "global": 43.0,
+   "ovl": 543
+  },
+  "top5": [
+   {
+    "hit": "WP_454751270.1|Cupriavidus",
+    "local": 45.1,
+    "global": 43.0
+   },
+   {
+    "hit": "WP_227311958.1|Cupriavidus_sp_MP-37",
+    "local": 44.0,
+    "global": 41.1
+   },
+   {
+    "hit": "WP_499084076.1|Lelliottia_jeotgali",
+    "local": 39.7,
+    "global": 38.2
+   },
+   {
+    "hit": "WP_103696839.1|Pseudomonadota",
+    "local": 38.5,
+    "global": 36.9
+   },
+   {
+    "hit": "WP_280172752.1|Enterobacterales",
+    "local": 38.3,
+    "global": 36.8
+   }
+  ]
+ },
+ "MCR-6.1|NG_055781.1": {
+  "best_incl_partial": {
+   "hit": "A0A220T316_Moraxella_sp_MSG13C03_mcr1like",
+   "local": 82.3,
+   "global": 81.9,
+   "ovl": 538
+  },
+  "best_full_only": {
+   "hit": "A0A220T316_Moraxella_sp_MSG13C03_mcr1like",
+   "local": 82.3,
+   "global": 81.9,
+   "ovl": 538
+  },
+  "top5": [
+   {
+    "hit": "A0A220T316_Moraxella_sp_MSG13C03_mcr1like",
+    "local": 82.3,
+    "global": 81.9
+   },
+   {
+    "hit": "WP_490288700.1|Faucicola_osloensis",
+    "local": 65.1,
+    "global": 62.2
+   },
+   {
+    "hit": "A0A9X2A2D0_Moraxella_tetraodonis",
+    "local": 64.9,
+    "global": 62.5
+   },
+   {
+    "hit": "WP_284034866.1|Moraxellaceae",
+    "local": 64.5,
+    "global": 63.3
+   },
+   {
+    "hit": "A0A2S1CRZ0_Moraxella_porci_mcrPOR",
+    "local": 62.9,
+    "global": 62.5
+   }
+  ]
+ },
+ "MCR-7.1|NG_056413.1": {
+  "best_incl_partial": {
+   "hit": "WP_499669208.1|Aeromonas_jandaei",
+   "local": 78.3,
+   "global": 78.1,
+   "ovl": 538
+  },
+  "best_full_only": {
+   "hit": "WP_499669208.1|Aeromonas_jandaei",
+   "local": 78.3,
+   "global": 78.1,
+   "ovl": 538
+  },
+  "top5": [
+   {
+    "hit": "WP_499669208.1|Aeromonas_jandaei",
+    "local": 78.3,
+    "global": 78.1
+   },
+   {
+    "hit": "WP_508945341.1|Aeromonas_sobria",
+    "local": 70.8,
+    "global": 70.7
+   },
+   {
+    "hit": "A0ABX6NRT3_Aeromonas_media_MCR36like",
+    "local": 69.5,
+    "global": 69.1
+   },
+   {
+    "hit": "T0R4P1_Aeromonas_salmonicida_pectinolytica_eptA",
+    "local": 68.0,
+    "global": 67.5
+   },
+   {
+    "hit": "WP_499756849.1|Aeromonas_rivipollensis",
+    "local": 67.1,
+    "global": 66.6
+   }
+  ]
+ },
+ "MCR-8.1|NG_061399.1": {
+  "best_incl_partial": {
+   "hit": "WP_261396260.1|Citrobacter_freundii",
+   "local": 47.5,
+   "global": 33.3,
+   "ovl": 398
+  },
+  "best_full_only": {
+   "hit": "WP_280172752.1|Enterobacterales",
+   "local": 43.8,
+   "global": 41.3,
+   "ovl": 539
+  },
+  "top5": [
+   {
+    "hit": "WP_280172752.1|Enterobacterales",
+    "local": 43.8,
+    "global": 41.3
+   },
+   {
+    "hit": "WP_498532122.1|Cedecea_sp_Ae19-4",
+    "local": 43.5,
+    "global": 40.8
+   },
+   {
+    "hit": "WP_509188741.1|Serratia_rubidaea",
+    "local": 43.3,
+    "global": 41.0
+   },
+   {
+    "hit": "WP_455507789.1|Enterobacter",
+    "local": 43.2,
+    "global": 40.5
+   },
+   {
+    "hit": "WP_508921828.1|Escherichia_coli",
+    "local": 42.3,
+    "global": 40.1
+   }
+  ]
+ },
+ "MCR-9.1|MK070339": {
+  "best_incl_partial": {
+   "hit": "WP_261396260.1|Citrobacter_freundii",
+   "local": 99.0,
+   "global": 72.8,
+   "ovl": 398
+  },
+  "best_full_only": {
+   "hit": "WP_232921000.1|Buttiauxella_cochleicola",
+   "local": 87.4,
+   "global": 87.4,
+   "ovl": 539
+  },
+  "top5": [
+   {
+    "hit": "WP_232921000.1|Buttiauxella_cochleicola",
+    "local": 87.4,
+    "global": 87.4
+   },
+   {
+    "hit": "A0ABX6NRT3_Aeromonas_media_MCR36like",
+    "local": 65.7,
+    "global": 65.6
+   },
+   {
+    "hit": "WP_508945341.1|Aeromonas_sobria",
+    "local": 59.8,
+    "global": 59.4
+   },
+   {
+    "hit": "WP_499756849.1|Aeromonas_rivipollensis",
+    "local": 58.3,
+    "global": 57.6
+   },
+   {
+    "hit": "A0ACH3EHW4_Aeromonas_mytilicola",
+    "local": 58.3,
+    "global": 57.6
+   }
+  ]
+ }
+}
