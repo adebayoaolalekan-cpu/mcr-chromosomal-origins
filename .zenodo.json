@@ -1,0 +1,7 @@
+{
+  "title": "Analysis code for chromosomal phosphoethanolamine transferases as repeated and independent sources of mobilised colistin resistance in Enterobacterales",
+  "description": "Analysis code, alignments, trees, topology test output, ancestral state reconstructions, codeml runs and detection results supporting a comparative genomic study of chromosomal phosphoethanolamine transferases and the mobilised colistin resistance (mcr) gene families.",
+  "license": "MIT",
+  "upload_type": "software",
+  "keywords": ["antimicrobial resistance", "colistin", "mcr", "phosphoethanolamine transferase", "comparative genomics", "horizontal gene transfer", "One Health"]
+}
