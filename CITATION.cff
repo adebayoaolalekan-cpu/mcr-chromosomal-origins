@@ -8,7 +8,22 @@ authors:
   - given-names: Abass Adebayo
     family-names: Olalekan
     affiliation: Lagos State University of Education, Lagos, Nigeria
-  - name: "[remaining authors to be completed before release]"
+  - given-names: Sahdat Ajoke
+    family-names: Salami
+  - given-names: Emmanuel Abiodun
+    family-names: Ayoola
+  - given-names: Grace Tolulope
+    family-names: Jolaoluwa
+  - given-names: Chinemerem Esther
+    family-names: Chukwu
+  - given-names: Rebecca Omotoyosi
+    family-names: Ogundeji
+  - given-names: Munirat Adeola
+    family-names: Akinsanya
+  - given-names: Ebunoluwa Rachael
+    family-names: Damisa
+  - given-names: Oluwasegun Adewale
+    family-names: Alagbe
 license: MIT
 version: 1.0.0
 date-released: "2026-09-23"
