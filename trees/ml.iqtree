@@ -1,0 +1,914 @@
+IQ-TREE 2.3.6 built Aug  1 2024
+
+Input file name: aln_automated1.faa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 12345
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 161 sequences with 313 amino-acid sites
+Number of constant sites: 15 (= 4.79233% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 15 (= 4.79233% of all sites)
+Number of parsimony informative sites: 296
+Number of distinct site patterns: 308
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+I+R6
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+I+R6        -44420.169   89530.339 +     0.56  328270.339 -        0   90822.779 +    0.308
+LG+I+R6          -44475.026   89602.052 -  1.5e-16  302806.052 -        0   90823.315 +    0.236
+LG+I+R5          -44480.875   89609.749 - 3.19e-18  300209.749 -        0   90823.519 +    0.213
+LG+F+R6          -44423.622   89535.243 -   0.0482  326895.243 -        0   90823.937 +    0.173
+LG+F+R7          -44419.527   89531.054 +    0.392  329655.054 -        0   90827.240 -   0.0331
+LG+R6            -44480.260   89610.519 - 2.17e-18  301510.519 -        0   90828.035 -   0.0223
+LG+R7            -44475.308   89604.615 - 4.16e-17  304116.615 -        0   90829.624 -   0.0101
+LG+F+I+R5        -44430.271   89546.542 -  0.00017  325530.542 -        0   90831.490 -  0.00396
+LG+I+R7          -44474.897   89605.795 - 2.31e-17  305429.795 -        0   90834.549 - 0.000857
+LG+I+G4          -44522.938   89679.876 - 1.89e-33  291291.876 - 1.33e-252   90867.422 - 6.23e-11
+LG+I+R4          -44509.192   89662.385 - 1.19e-29  297674.385 -        0   90868.662 - 3.35e-11
+LG+R5            -44527.080   89700.160 - 7.45e-38  299004.160 -        0   90910.183 - 3.23e-20
+LG+R4            -44559.842   89761.684 - 3.25e-51  296485.684 -        0   90964.216 - 5.97e-32
+LG+G4            -44577.970   89787.940 - 6.47e-57  290131.940 +        1   90971.741 - 1.39e-33
+LG+I+R3          -44613.884   89867.768 - 2.99e-74  295307.768 -        0   91066.553 - 3.58e-54
+LG+R3            -44685.291   90008.582 - 7.92e-105  294168.582 -        0   91203.621 - 6.17e-84
+WAG+F+I+R6       -44619.113   89928.227 - 2.23e-87  328668.227 -        0   91220.667 - 1.23e-87
+WAG+F+I+R5       -44624.995   89935.989 - 4.59e-89  325919.989 -        0   91220.937 - 1.07e-87
+WAG+F+R6         -44622.605   89933.210 - 1.84e-88  327293.210 -        0   91221.904 - 6.61e-88
+WAG+F+R7         -44619.237   89930.474 - 7.24e-88  330054.474 -        0   91226.661 - 6.12e-89
+VT+F+I+R6        -44761.702   90213.404 - 2.65e-149  328953.404 -        0   91505.844 - 1.46e-149
+VT+F+R6          -44765.895   90219.789 - 1.09e-150  327579.789 -        0   91508.483 - 3.89e-150
+VT+F+I+R5        -44771.667   90229.334 - 9.19e-153  326213.334 -        0   91514.282 - 2.14e-151
+VT+F+R7          -44763.126   90218.253 - 2.34e-150  330342.253 -        0   91514.439 - 1.98e-151
+WAG+I+R5         -44844.805   90337.610 - 2.83e-176  300937.610 -        0   91551.380 - 1.88e-159
+WAG+I+R6         -44841.577   90335.154 - 9.66e-176  303539.154 -        0   91556.416 - 1.52e-160
+WAG+R6           -44847.086   90344.171 - 1.06e-177  302244.171 -        0   91561.687 - 1.09e-161
+WAG+R7           -44845.068   90344.136 - 1.08e-177  304856.136 -        0   91569.144 - 2.62e-163
+LG+I+R2          -44906.737   90449.474 - 1.45e-200  293333.474 -        0   91640.767 - 7.33e-179
+cpREV+F+R7       -44837.775   90367.550 - 8.92e-183  330491.550 -        0   91663.736 - 7.54e-184
+cpREV+F+R6       -44843.947   90375.895 - 1.37e-184  327735.895 -        0   91664.588 - 4.92e-184
+cpREV+F+I+R6     -44842.170   90374.340 - 2.99e-184  329114.340 -        0   91666.780 - 1.65e-184
+cpREV+F+I+R5     -44848.469   90382.938 - 4.06e-186  326366.938 -        0   91667.885 - 9.47e-185
+rtREV+F+R7       -44869.206   90430.411 - 1.99e-196  330554.411 -        0   91726.598 - 1.69e-197
+rtREV+F+R6       -44875.157   90438.315 - 3.83e-198  327798.315 -        0   91727.009 - 1.37e-197
+VT+I+R6          -44928.036   90508.072 - 2.73e-213  303712.072 -        0   91729.334 - 4.3e-198
+VT+I+R5          -44934.241   90516.481 - 4.07e-215  301116.481 -        0   91730.251 - 2.72e-198
+rtREV+F+I+R6     -44875.098   90440.196 - 1.5e-198  329180.196 -        0   91732.636 - 8.24e-199
+VT+R6            -44933.665   90517.329 - 2.67e-215  302417.329 -        0   91734.845 - 2.73e-199
+VT+R7            -44932.009   90518.018 - 1.89e-215  305030.018 -        0   91743.027 - 4.57e-201
+rtREV+F+I+R5     -44886.633   90459.265 - 1.08e-202  326443.265 -        0   91744.213 - 2.52e-201
+Blosum62+F+R6    -44901.489   90490.978 - 1.41e-209  327850.978 -        0   91779.672 - 5.04e-209
+Blosum62+F+I+R6  -44900.193   90490.387 - 1.89e-209  329230.387 -        0   91782.827 - 1.04e-209
+Blosum62+F+R7    -44898.710   90489.419 - 3.07e-209  330613.419 -        0   91785.605 - 2.59e-210
+Blosum62+F+I+R5  -44911.566   90509.132 - 1.61e-213  326493.132 -        0   91794.080 - 3.75e-212
+cpREV+R6         -44996.617   90643.233 - 1.22e-242  302543.233 -        0   91860.749 - 1.25e-226
+cpREV+I+R5       -44999.604   90647.209 - 1.67e-243  301247.209 -        0   91860.979 - 1.11e-226
+cpREV+R7         -44994.018   90642.035 - 2.22e-242  305154.035 -        0   91867.044 - 5.37e-228
+cpREV+I+R6       -44997.295   90646.590 - 2.28e-243  303850.590 -        0   91867.852 - 3.58e-228
+Blosum62+R6      -45007.207   90664.414 - 3.07e-247  302564.414 -        0   91881.930 - 3.14e-231
+Blosum62+I+R6    -45005.278   90662.556 - 7.77e-247  303866.556 -        0   91883.818 - 1.22e-231
+Blosum62+R7      -45003.336   90660.671 - 1.99e-246  305172.671 -        0   91885.680 - 4.82e-232
+JTT+F+I+R6       -44953.993   90597.986 - 8.16e-233  329337.986 -        0   91890.426 - 4.49e-233
+Blosum62+I+R5    -45015.152   90678.304 - 2.96e-250  301278.304 -        0   91892.074 - 1.97e-233
+JTT+F+R6         -44960.985   90609.971 - 2.04e-235  327969.971 -        0   91898.665 - 7.3e-235
+JTT+F+I+R5       -44964.269   90614.539 - 2.08e-236  326598.539 -        0   91899.486 - 4.84e-235
+JTT+F+R7         -44956.163   90604.325 - 3.43e-234  330728.325 -        0   91900.512 - 2.9e-235
+PMB+F+R6         -44964.778   90617.556 - 4.59e-237  327977.556 -        0   91906.250 - 1.64e-236
+PMB+F+R7         -44962.167   90616.333 - 8.46e-237  330740.333 -        0   91912.520 - 7.16e-238
+PMB+F+I+R6       -44965.326   90620.651 - 9.77e-238  329360.651 -        0   91913.091 - 5.38e-238
+PMB+F+I+R5       -44975.037   90636.074 - 4.37e-241  326620.074 -        0   91921.022 - 1.02e-239
+LG+R2            -45062.738   90759.476 - 6.99e-268  292371.476 -        0   91947.023 - 2.3e-245
+PMB+R6           -45088.671   90827.341 - 1.28e-282  302727.341 -        0   92044.857 - 1.31e-266
+PMB+I+R6         -45087.999   90827.998 - 9.23e-283  304031.998 -        0   92049.260 - 1.45e-267
+PMB+R7           -45085.309   90824.619 -   5e-282  305336.619 -        0   92049.627 - 1.21e-267
+PMB+I+R5         -45095.771   90839.541 - 2.87e-285  301439.541 -        0   92053.311 - 1.92e-268
+Dayhoff+F+I+R6   -45061.946   90813.892 - 1.07e-279  329553.892 -        0   92106.333 - 5.87e-280
+Dayhoff+F+R7     -45062.325   90816.650 - 2.69e-280  330940.650 -        0   92112.837 - 2.27e-281
+Dayhoff+F+R6     -45070.218   90828.436 - 7.41e-283  328188.436 -        0   92117.130 - 2.66e-282
+Dayhoff+F+I+R5   -45074.036   90834.072 - 4.43e-284  326818.072 -        0   92119.020 - 1.03e-282
+JTT+I+R6         -45155.362   90962.724 - 5.12e-312  304166.724 -        0   92183.986 - 8.06e-297
+JTT+I+R5         -45162.794   90973.587 - 2.24e-314  301573.587 -        0   92187.357 - 1.49e-297
+JTT+R6           -45163.835   90977.670 - 2.91e-315  302877.670 -        0   92195.186 - 2.98e-299
+JTT+R7           -45158.269   90970.538 - 1.03e-313  305482.538 -        0   92195.547 - 2.49e-299
+rtREV+R6         -45202.181   91054.361 -        0  302954.361 -        0   92271.877 - 6.63e-316
+rtREV+R7         -45199.034   91052.068 -        0  305564.068 -        0   92277.076 - 4.92e-317
+rtREV+I+R5       -45208.562   91065.124 -        0  301665.124 -        0   92278.894 - 1.98e-317
+rtREV+I+R6       -45205.666   91063.332 -        0  304267.332 -        0   92284.594 - 1.15e-318
+Dayhoff+I+R6     -45454.833   91561.666 -        0  304765.666 -        0   92782.929 -        0
+Dayhoff+I+R5     -45463.289   91574.578 -        0  302174.578 -        0   92788.348 -        0
+Dayhoff+R7       -45457.790   91569.581 -        0  306081.581 -        0   92794.589 -        0
+Dayhoff+R6       -45465.843   91581.685 -        0  303481.685 -        0   92799.201 -        0
+LG+I             -46338.649   93309.299 -        0  293653.299 -        0   94493.099 -        0
+LG               -46681.558   93993.117 -        0  293073.117 -        0   95173.171 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+I+R6
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0816
+  pi(R) = 0.0349
+  pi(N) = 0.0487
+  pi(D) = 0.0513
+  pi(C) = 0.0134
+  pi(Q) = 0.0352
+  pi(E) = 0.0363
+  pi(G) = 0.0555
+  pi(H) = 0.0235
+  pi(I) = 0.0624
+  pi(L) = 0.1279
+  pi(K) = 0.0329
+  pi(M) = 0.0273
+  pi(F) = 0.0547
+  pi(P) = 0.0344
+  pi(S) = 0.0748
+  pi(T) = 0.0637
+  pi(W) = 0.0123
+  pi(Y) = 0.0478
+  pi(V) = 0.0815
+
+Model of rate heterogeneity: Invar+FreeRate with 6 categories
+Proportion of invariable sites: 0.0341
+Site proportion and rates:  (0.0551,0.1018) (0.1827,0.2781) (0.2626,0.6072) (0.2363,1.1274) (0.1598,1.9241) (0.0694,3.0311)
+
+ Category  Relative_rate  Proportion
+  0         0              0.0341
+  1         0.1018         0.0551
+  2         0.2781         0.1827
+  3         0.6072         0.2626
+  4         1.1274         0.2363
+  5         1.9241         0.1598
+  6         3.0311         0.0694
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -44382.3166 (s.e. 1330.7366)
+Unconstrained log-likelihood (without tree): -1790.5836
+Number of free parameters (#branches + #model parameters): 345
+Akaike information criterion (AIC) score: 89454.6333
+Corrected Akaike information criterion (AICc) score: 328194.6333
+Bayesian information criterion (BIC) score: 90747.0734
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 345
+Sample size (n, alignment length): 313
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 52.4103
+Sum of internal branch lengths: 22.1519 (42.2662% of tree length)
+
+WARNING: 5 near-zero internal branches (<0.0032) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'NP_418538.2|Escherichia_coli_str_K-12_substr_MG1655' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++**NP_418538.2|Escherichia_coli_str_K-12_substr_MG1655
+|
+|                                                                                                          +**NP_418002.2|Escherichia_coli_str_K-12_substr_MG1655
+|                                                                                                       +**| (0/53)
+|                                                                                                       |  +**WP_508920581.1|Escherichia_coli
+|                                                                                                    +--| (84.9/98)
+|                                                                                                    |  +--WP_509059624.1|Escherichia_coli
+|                                                                                                 +--| (92/90)
+|                                                                                                 |  |           +**WP_504970690.1|Salmonella_enterica
+|                                                                                                 |  |        +--| (54.7/100)
+|                                                                                                 |  |        |  +**WP_504359529.1|Salmonella_enterica
+|                                                                                                 |  |     +--| (89.7/100)
+|                                                                                                 |  |     |  |  +**WP_503987587.1|Salmonella_enterica
+|                                                                                                 |  |     |  +**| (0/90)
+|                                                                                                 |  |     |     +**WP_503703873.1|Salmonella_enterica
+|                                                                                                 |  |  +--| (70.7/98)
+|                                                                                                 |  |  |  +--WP_497768878.1|Kluyvera_fluvialis
+|                                                                                                 |  +--| (97/99)
+|                                                                                                 |     +--WP_509402429.1|Citrobacter_freundii
+|                                                                                              +--| (85.1/81)
+|                                                                                              |  +--WP_508669306.1|Citrobacter_sedlakii
+|                                                                                           +--| (29.2/73)
+|                                                                                           |  |  +--WP_508222309.1|Enterobacter_kobei
+|                                                                                           |  +--| (94.3/84)
+|                                                                                           |     +--WP_312998569.1|Leclercia
+|                                                                                        +--| (93.7/84)
+|                                                                                        |  |  +--WP_490767110.1|Kosakonia_cowanii
+|                                                                                        |  +--| (92.4/98)
+|                                                                                        |     |     +--WP_437434076.1|Enterobacteriaceae
+|                                                                                        |     |  +--| (38/95)
+|                                                                                        |     |  |  +--WP_499059346.1|Phytobacter_ursingii
+|                                                                                        |     +--| (59.1/96)
+|                                                                                        |        +--WP_430892645.1|Kosakonia_sp_N21
+|                                                                                     +--| (99.9/100)
+|                                                                                     |  |  +--WP_509427568.1|Cronobacter_universalis
+|                                                                                     |  +--| (89.1/100)
+|                                                                                     |     +--WP_481637702.1|Franconibacter_pulveris
+|                                                                                  +--| (83.7/99)
+|                                                                                  |  +--WP_232922310.1|Buttiauxella_cochleicola
+|                                                                               +--| (99.9/100)
+|                                                                               |  +--WP_336819346.1|Enterobacteriaceae
+|                                                                            +--| (96.8/91)
+|                                                                            |  |  +--WP_416250066.1|Erwinia_sp_PPS120
+|                                                                            |  +--| (90.2/67)
+|                                                                            |     |     +--WP_304372782.1|Tatumella_ptyseos
+|                                                                            |     |  +--| (98.8/95)
+|                                                                            |     |  |  |     +--WP_294901111.1|Tatumella_sp_UBA2305
+|                                                                            |     |  |  |  +--| (98.2/100)
+|                                                                            |     |  |  |  |  +--WP_212708183.1|Tatumella
+|                                                                            |     |  |  +--| (86.2/100)
+|                                                                            |     |  |     +--WP_212714918.1|Tatumella
+|                                                                            |     +--| (28.8/51)
+|                                                                            |        +--WP_503034493.1|Pantoea_dispersa
+|                                                                         +--| (53.6/78)
+|                                                                         |  |  +--WP_012004603.1|Enterobacterales
+|                                                                         |  +--| (84.1/91)
+|                                                                         |     +--WP_106440961.1|Yersinia_pseudotuberculosis_complex
+|                                                                      +--| (70.5/87)
+|                                                                      |  |  +--WP_497230535.1|Hafnia_psychrotolerans
+|                                                                      |  +--| (95.5/100)
+|                                                                      |     +--WP_496203258.1|Ewingella_sp_AOP9-I1-14
+|                                                                   +--| (99.9/100)
+|                                                                   |  |  +--WP_503275303.1|Dickeya_dadantii
+|                                                                   |  +--| (93.8/100)
+|                                                                   |     +--WP_165708168.1|Pectobacterium_parvum
+|                                                                +--| (93.6/99)
+|                                                                |  +--WP_069368207.1|Enterobacterales
+|                                                          +-----| (96.6/100)
+|                                                          |     +--WP_509059598.1|Morganella_morganii
+|                                                      +---| (47.7/96)
+|                                                      |   +----------------------------------WP_321178176.1|Neisseriaceae
+|                                                  +---| (99.4/100)
+|                                                  |   |                                    +--NP_418390.1|Escherichia_coli_str_K-12_substr_MG1655
+|                                                  |   |                                 +--| (71.4/100)
+|                                                  |   |                                 |  +--WP_369492371.1|Salmonella_enterica
+|                                                  |   |                              +--| (26.6/93)
+|                                                  |   |                              |  +--WP_504686596.1|Pluralibacter_gergoviae
+|                                                  |   |                           +--| (95.7/100)
+|                                                  |   |                           |  +--WP_494494284.1|Cedecea_sp_B14
+|                                                  |   |                        +--| (97.3/99)
+|                                                  |   |                        |  |  +--WP_039485950.1|Pectobacterium_parvum
+|                                                  |   |                        |  +--| (88.6/99)
+|                                                  |   |                        |     +--WP_506500245.1|Providencia_hangzhouensis
+|                                                  |   |                     +--| (92.1/98)
+|                                                  |   |                     |  |  +--WP_499239275.1|Rahnella_variigena
+|                                                  |   |                     |  +--| (100/100)
+|                                                  |   |                     |     +--WP_507560833.1|Pseudomonas_sp
+|                                                  |   |         +-----------| (100/100)
+|                                                  |   |         |           +--WP_498979891.1|Gammaproteobacteria
+|                                                  |   |      +--| (90.5/100)
+|                                                  |   |      |  +-------------------WP_508931853.1|Campylobacter_sp
+|                                                  |   +------| (99.3/100)
+|                                                  |          |                             +--WP_509374736.1|Escherichia_coli
+|                                                  |          |                          +--| (30.9/72)
+|                                                  |          |                          |  +--WP_135171872.1|Enterobacteriaceae
+|                                                  |          |              +-----------| (100/100)
+|                                                  |          |              |           +--WP_508475707.1|Escherichia_coli
+|                                                  |          |           +--| (70.6/76)
+|                                                  |          |           |  +---------WP_506159706.1|Serratia_marcescens
+|                                                  |          |        +--| (80.7/78)
+|                                                  |          |        |  |                                +--WP_509060339.1|Escherichia_coli
+|                                                  |          |        |  |                             +--| (63.6/95)
+|                                                  |          |        |  |                             |  +--WP_032217775.1|Enterobacteriaceae
+|                                                  |          |        |  |                          +--| (100/100)
+|                                                  |          |        |  |                          |  |     +**WP_001550877.1|Pseudomonadati
+|                                                  |          |        |  |                          |  |  +--| (93.8/100)
+|                                                  |          |        |  |                          |  |  |  +**WP_137503927.1|Enterobacteriaceae
+|                                                  |          |        |  |                          |  +**| (0/82)
+|                                                  |          |        |  |                          |     +--WP_042201572.1|Enterobacteriaceae
+|                                                  |          |        |  |                       +--| (88.8/98)
+|                                                  |          |        |  |                       |  |  +--WP_505564214.1|Salmonella_enterica
+|                                                  |          |        |  |                       |  +--| (43.2/88)
+|                                                  |          |        |  |                       |     |  +--WP_508668222.1|Citrobacter_sedlakii
+|                                                  |          |        |  |                       |     +--| (64.4/95)
+|                                                  |          |        |  |                       |        +--WP_155020850.1|Citrobacter
+|                                                  |          |        |  |                    +--| (88.5/97)
+|                                                  |          |        |  |                    |  |     +--WP_435982576.1|Yokenella_regensburgei
+|                                                  |          |        |  |                    |  |  +--| (74.9/100)
+|                                                  |          |        |  |                    |  |  |  |  +--WP_509390844.1|Klebsiella_pneumoniae
+|                                                  |          |        |  |                    |  |  |  +--| (76/99)
+|                                                  |          |        |  |                    |  |  |     +--WP_497766361.1|Kluyvera_fluvialis
+|                                                  |          |        |  |                    |  +--| (90.7/97)
+|                                                  |          |        |  |                    |     +--WP_472681345.1|Pluralibacter_gergoviae
+|                                                  |          |        |  |                 +--| (89.4/96)
+|                                                  |          |        |  |                 |  |  +--WP_509190099.1|Enterobacter_roggenkampii
+|                                                  |          |        |  |                 |  +--| (91.1/97)
+|                                                  |          |        |  |                 |     |  +--WP_490768032.1|Kosakonia_cowanii
+|                                                  |          |        |  |                 |     +--| (100/100)
+|                                                  |          |        |  |                 |        |  +--WP_437431007.1|Enterobacteriaceae
+|                                                  |          |        |  |                 |        +--| (98.5/100)
+|                                                  |          |        |  |                 |           +--WP_499056736.1|Phytobacter_ursingii
+|                                                  |          |        |  |              +--| (96.2/100)
+|                                                  |          |        |  |              |  +--WP_103823496.1|unclassified_Leclercia
+|                                                  |          |        |  |           +--| (55.2/98)
+|                                                  |          |        |  |           |  +--WP_509483209.1|Cronobacter_sakazakii
+|                                                  |          |        |  |        +--| (97/99)
+|                                                  |          |        |  |        |  +--WP_085541943.1|Cedecea_sp_NFIX57
+|                                                  |          |        |  |   +----| (100/100)
+|                                                  |          |        |  |   |    +--WP_320530243.1|Leclercia
+|                                                  |          |        |  +---| (99.4/100)
+|                                                  |          |        |      |     +----WP_472943011.1|Yersinia_enterocolitica
+|                                                  |          |        |      |  +--| (99.1/100)
+|                                                  |          |        |      |  |  +----WP_446469856.1|Xenorhabdus_stockiae
+|                                                  |          |        |      +--| (93.8/99)
+|                                                  |          |        |         +----WP_509059176.1|Morganella_morganii
+|                                                  |          |  +-----| (99.4/100)
+|                                                  |          |  |     +--------------WP_432481764.1|Moraxella_sp_ZY200743
+|                                                  |          +--| (92.9/100)
+|                                                  |             |                 +--WP_008502676.1|Enterobacter
+|                                                  |             |              +--| (96.2/100)
+|                                                  |             |              |  +--WP_133632104.1|Lelliottia_sp
+|                                                  |             |      +-------| (100/100)
+|                                                  |             |      |       +--WP_481637740.1|Franconibacter_pulveris
+|                                                  |             |   +--| (80.7/98)
+|                                                  |             |   |  |  +-------WP_489146167.1|Hafnia_paralvei
+|                                                  |             |   |  +--| (97.2/100)
+|                                                  |             |   |     |  +--WP_112204947.1|Kluyvera_cryocrescens
+|                                                  |             |   |     +--| (98.7/100)
+|                                                  |             |   |        +--WP_503489110.1|Buttiauxella_cochleicola
+|                                                  |             +---| (99.1/100)
+|                                                  |                 |           +--WP_490535502.1|Proteus_mirabilis
+|                                                  |                 |        +--| (89/100)
+|                                                  |                 |        |  +--WP_069369415.1|Enterobacterales
+|                                                  |                 |     +--| (99.6/100)
+|                                                  |                 |     |  +--WP_493609079.1|Providencia_manganoxydans
+|                                                  |                 +-----| (99.9/100)
+|                                                  |                       +--WP_132353712.1|Photorhabdus_khanii
+|                                               +--| (73.7/61)
+|                                               |  |   +----WP_506355363.1|Shewanella_sp
+|                                               |  +---| (99.6/100)
+|                                               |      +--WP_498358912.1|Shewanella_frigidimarina
+|                                            +--| (96.1/62)
+|                                            |  |   +--WP_220053229.1|Shewanella
+|                                            |  +---| (100/100)
+|                                            |      +--MCR-4.1|NG_057470.1
+|                                         +--| (79.3/59)
+|                                         |  +---WP_497148305.1|Plesiomonas_shigelloides
+|                                      +--| (68.7/56)
+|                                      |  |              +**WP_261396260.1|Citrobacter_freundii
+|                                      |  |           +--| (98.9/100)
+|                                      |  |           |  +**MCR-9.1|MK070339
+|                                      |  |        +--| (99.9/100)
+|                                      |  |        |  |  +--WP_232921000.1|Buttiauxella_cochleicola
+|                                      |  |        |  +--| (54.7/98)
+|                                      |  |        |     +--MCR-10.1|NG_066767.1
+|                                      |  |     +--| (97.7/100)
+|                                      |  |     |  |           +--WP_499756849.1|Aeromonas_rivipollensis
+|                                      |  |     |  |        +--| (93.4/100)
+|                                      |  |     |  |        |  +--WP_508945341.1|Aeromonas_sobria
+|                                      |  |     |  |     +--| (100/100)
+|                                      |  |     |  |     |  +--WP_499669208.1|Aeromonas_jandaei
+|                                      |  |     |  |  +--| (98.4/100)
+|                                      |  |     |  |  |  +--MCR-7.1|NG_056413.1
+|                                      |  |     |  +--| (97.7/100)
+|                                      |  |     |     +--MCR-3.1|NG_055505.1
+|                                      |  |  +--| (91/90)
+|                                      |  |  |  |     +--WP_496226078.1|Hafnia_alvei
+|                                      |  |  |  |  +--| (96.7/100)
+|                                      |  |  |  |  |  +--WP_493767314.1|Edwardsiella_tarda
+|                                      |  |  |  +--| (99.4/100)
+|                                      |  |  |     |  +--WP_504432666.1|Rahnella_perminowiae
+|                                      |  |  |     +--| (99.3/100)
+|                                      |  |  |        +--WP_496202703.1|Ewingella_sp_AOP9-I1-14
+|                                      |  +--| (38.9/75)
+|                                      |     |           +--WP_509676488.1|Vibrio_metoecus
+|                                      |     |        +--| (28.4/79)
+|                                      |     |        |  +--WP_509654125.1|Vibrio_cholerae
+|                                      |     |     +--| (100/100)
+|                                      |     |     |  +--WP_509684683.1|Vibrio_mimicus
+|                                      |     |  +--| (99.5/100)
+|                                      |     |  |  |  +--WP_509683000.1|Vibrio_navarrensis
+|                                      |     |  |  +--| (62.9/97)
+|                                      |     |  |     +--WP_509680243.1|Vibrio_vulnificus
+|                                      |     +--| (11.3/59)
+|                                      |        +--WP_497148372.1|Plesiomonas_shigelloides
+|                                   +--| (70.1/85)
+|                                   |  |    +---WP_002216735.1|Neisseria
+|                                   |  +----| (100/100)
+|                                   |       +---WP_463199511.1|Moraxella_sp_I5G
+|                                +--| (84.8/89)
+|                                |  +-----MCR-8.1|NG_061399.1
+|                             +--| (98.6/95)
+|                             |  |                    +**WP_490288700.1|Faucicola_osloensis
+|                             |  |                 +--| (99.6/100)
+|                             |  |                 |  +--WP_284034866.1|Moraxellaceae
+|                             |  |           +-----| (100/100)
+|                             |  |           |     |  +--MCR-1.1|NG_050417.1
+|                             |  |           |     +--| (95.8/100)
+|                             |  |           |        |  +--MCR-2.1|NG_051171.1
+|                             |  |           |        +--| (91.2/100)
+|                             |  |           |           +--MCR-6.1|NG_055781.1
+|                             |  |        +--| (98.5/100)
+|                             |  |        |  +---WP_507244468.1|Campylobacter_sp
+|                             |  |     +--| (33.1/87)
+|                             |  |     |  +----WP_363510943.1|Burkholderia_sp_LMU1-1-11
+|                             |  |  +--| (86.3/92)
+|                             |  |  |  |  +----WP_224042345.1|Cupriavidus_respiraculi
+|                             |  |  |  +--| (98.8/99)
+|                             |  |  |     |     +--WP_507779059.1|Pseudomonas_sp_RC25-4
+|                             |  |  |     |  +--| (59.3/93)
+|                             |  |  |     |  |  |  +--WP_103696839.1|Pseudomonadota
+|                             |  |  |     |  |  +--| (90.3/93)
+|                             |  |  |     |  |     +--WP_498980395.1|Gammaproteobacteria
+|                             |  |  |     +--| (99.8/100)
+|                             |  |  |        +--WP_499084076.1|Lelliottia_jeotgali
+|                             |  +--| (97.6/96)
+|                             |     |               +--WP_227311958.1|Cupriavidus_sp_MP-37
+|                             |     |           +---| (100/100)
+|                             |     |           |   +--WP_454751270.1|Cupriavidus
+|                             |     |        +--| (99.8/100)
+|                             |     |        |  +----MCR-5.1|NG_055658.1
+|                             |     |     +--| (79.3/95)
+|                             |     |     |  +----WP_463893905.1|Pseudomonas
+|                             |     |  +--| (58.5/93)
+|                             |     |  |  +--------MCR-12.1|NG_245195.1
+|                             |     +--| (5.9/45)
+|                             |        +-------WP_509126031.1|Acinetobacter_kookii
+|                          +--| (99.1/100)
+|                          |  |     +--WP_442820864.1|Yersinia
+|                          |  |  +--| (97.2/100)
+|                          |  |  |  +--WP_509188741.1|Serratia_rubidaea
+|                          |  +--| (98.9/100)
+|                          |     |  +--WP_280172752.1|Enterobacterales
+|                          |     +--| (36/85)
+|                          |        |     +--WP_320529772.1|Leclercia
+|                          |        |  +--| (98.8/100)
+|                          |        |  |  |  +--WP_504339545.1|Lelliottia_sp
+|                          |        |  |  +--| (70.2/100)
+|                          |        |  |     +--WP_455507789.1|Enterobacter
+|                          |        +--| (100/100)
+|                          |           |  +--WP_232863754.1|Buttiauxella_cochleicola
+|                          |           +--| (18.9/88)
+|                          |              +--WP_498532122.1|Cedecea_sp_Ae19-4
+|                       +--| (100/100)
+|                       |  |  +--WP_039484537.1|Pectobacterium_parvum
+|                       |  +--| (87.4/98)
+|                       |     +--WP_210182583.1|Dickeya_parazeae
+|                    +--| (7.2/47)
+|                    |  |  +--WP_509425983.1|Cronobacter_turicensis
+|                    |  +--| (99.3/100)
+|                    |     +--WP_509065747.1|Pantoea_brenneri
+|                 +--| (52.8/51)
+|                 |  +--WP_338463516.1|Franconibacter
+|              +--| (95.6/96)
+|              |  |  +--WP_508824434.1|Erwinia_sp_VRR173
+|              |  +--| (96.9/54)
+|              |     +--WP_038020592.1|Tatumella_morbirosei
+|           +--| (98.6/98)
+|           |  |        +--WP_509045700.1|Klebsiella_ornithinolytica
+|           |  |     +--| (80/55)
+|           |  |     |  |  +--WP_472681338.1|Pluralibacter_gergoviae
+|           |  |     |  +--| (9.1/40)
+|           |  |     |     +--WP_497766411.1|Kluyvera_fluvialis
+|           |  |  +--| (69.4/53)
+|           |  |  |  |  +--WP_490767992.1|Kosakonia_cowanii
+|           |  |  |  +--| (92.9/90)
+|           |  |  |     +--WP_437430954.1|Enterobacteriaceae
+|           |  +--| (94.4/66)
+|           |     +--WP_506698367.1|Phytobacter_diazotrophicus
+|        +--| (99.9/100)
+|        |  |        +**WP_509467498.1|Salmonella_enterica
+|        |  |     +--| (99/100)
+|        |  |     |  +--WP_503987387.1|Salmonella_enterica
+|        |  |  +--| (21.9/86)
+|        |  |  |  |  +--WP_509401980.1|Citrobacter_freundii
+|        |  |  |  +--| (99.9/100)
+|        |  |  |     +--WP_155021951.1|Citrobacter_pasteurii
+|        |  +--| (71.4/91)
+|        |     +--WP_508667667.1|Citrobacter_sedlakii
+|     +--| (80.3/98)
+|     |  +**WP_508921828.1|Escherichia_coli
+|  +**| (0/83)
+|  |  +--WP_508977199.1|Escherichia_coli
++**| (0/90)
+|  +--WP_509412112.1|Escherichia_coli
+|
++**WP_001309144.1|Pseudomonadati
+
+Tree in newick format:
+
+(NP_418538.2|Escherichia_coli_str_K-12_substr_MG1655:0.0000013409,((((((((((((((((((((((((((((((((((NP_418002.2|Escherichia_coli_str_K-12_substr_MG1655:0.0000013409,WP_508920581.1|Escherichia_coli:0.0000013409)0/53:0.0000030754,WP_509059624.1|Escherichia_coli:0.0032765284)84.9/98:0.0145011449,((((WP_504970690.1|Salmonella_enterica:0.0000035500,WP_504359529.1|Salmonella_enterica:0.0000032442)54.7/100:0.0064242586,(WP_503987587.1|Salmonella_enterica:0.0000030918,WP_503703873.1|Salmonella_enterica:0.0000029139)0/90:0.0001293260)89.7/100:0.0183179174,WP_497768878.1|Kluyvera_fluvialis:0.1909482281)70.7/98:0.0186154968,WP_509402429.1|Citrobacter_freundii:0.0938251277)97/99:0.0368362983)92/90:0.0279232344,WP_508669306.1|Citrobacter_sedlakii:0.1465762306)85.1/81:0.0220561322,(WP_508222309.1|Enterobacter_kobei:0.0918727369,WP_312998569.1|Leclercia:0.0223740186)94.3/84:0.0351575547)29.2/73:0.0170587474,(WP_490767110.1|Kosakonia_cowanii:0.0455507900,((WP_437434076.1|Enterobacteriaceae:0.0517749352,WP_499059346.1|Phytobacter_ursingii:0.0545429004)38/95:0.0220571767,WP_430892645.1|Kosakonia_sp_N21:0.0343900231)59.1/96:0.0259233775)92.4/98:0.0298834812)93.7/84:0.0473619752,(WP_509427568.1|Cronobacter_universalis:0.0915776606,WP_481637702.1|Franconibacter_pulveris:0.0582123956)89.1/100:0.0355399449)99.9/100:0.0988365466,WP_232922310.1|Buttiauxella_cochleicola:0.1063545981)83.7/99:0.0543284230,WP_336819346.1|Enterobacteriaceae:0.1171088592)99.9/100:0.1202251295,(WP_416250066.1|Erwinia_sp_PPS120:0.0640598744,((WP_304372782.1|Tatumella_ptyseos:0.3120442908,((WP_294901111.1|Tatumella_sp_UBA2305:0.0949572780,WP_212708183.1|Tatumella:0.0945353434)98.2/100:0.0745112789,WP_212714918.1|Tatumella:0.0661638581)86.2/100:0.0711614879)98.8/95:0.1096209428,WP_503034493.1|Pantoea_dispersa:0.0654166701)28.8/51:0.0306782453)90.2/67:0.0391533784)96.8/91:0.0604887114,(WP_012004603.1|Enterobacterales:0.0668129573,WP_106440961.1|Yersinia_pseudotuberculosis_complex:0.1062367309)84.1/91:0.0386637533)53.6/78:0.0302037386,(WP_497230535.1|Hafnia_psychrotolerans:0.0735256603,WP_496203258.1|Ewingella_sp_AOP9-I1-14:0.0811956836)95.5/100:0.0581404090)70.5/87:0.0230718379,(WP_503275303.1|Dickeya_dadantii:0.1916383742,WP_165708168.1|Pectobacterium_parvum:0.0657317074)93.8/100:0.0464840361)99.9/100:0.2996523756,WP_069368207.1|Enterobacterales:0.2512797115)93.6/99:0.1629258365,WP_509059598.1|Morganella_morganii:0.1856337033)96.6/100:0.5480096878,WP_321178176.1|Neisseriaceae:3.1341530125)47.7/96:0.3930054297,((((((((NP_418390.1|Escherichia_coli_str_K-12_substr_MG1655:0.0508509224,WP_369492371.1|Salmonella_enterica:0.0481276650)71.4/100:0.0101499418,WP_504686596.1|Pluralibacter_gergoviae:0.0851636070)26.6/93:0.0420108132,WP_494494284.1|Cedecea_sp_B14:0.1393079104)95.7/100:0.0980003006,(WP_039485950.1|Pectobacterium_parvum:0.2483710902,WP_506500245.1|Providencia_hangzhouensis:0.3495308235)88.6/99:0.1389810055)97.3/99:0.1595075221,(WP_499239275.1|Rahnella_variigena:0.0707449018,WP_507560833.1|Pseudomonas_sp:0.0780650062)100/100:0.2764893231)92.1/98:0.1387377972,WP_498979891.1|Gammaproteobacteria:0.1322275737)100/100:1.0762872100,WP_508931853.1|Campylobacter_sp:1.7806261147)90.5/100:0.2991848101,((((((WP_509374736.1|Escherichia_coli:0.0156958142,WP_135171872.1|Enterobacteriaceae:0.0152683477)30.9/72:0.0102474482,WP_508475707.1|Escherichia_coli:0.0095095628)100/100:1.0862126040,WP_506159706.1|Serratia_marcescens:0.9023300121)70.6/76:0.1467899132,((((((((((WP_509060339.1|Escherichia_coli:0.0066883371,WP_032217775.1|Enterobacteriaceae:0.0066525085)63.6/95:0.0033708352,((WP_001550877.1|Pseudomonadati:0.0000013409,WP_137503927.1|Enterobacteriaceae:0.0000013409)93.8/100:0.0067325217,WP_042201572.1|Enterobacteriaceae:0.0033528888)0/82:0.0000031841)100/100:0.0821732521,(WP_505564214.1|Salmonella_enterica:0.0861820900,(WP_508668222.1|Citrobacter_sedlakii:0.0510091208,WP_155020850.1|Citrobacter:0.0778700217)64.4/95:0.0144022320)43.2/88:0.0156124124)88.8/98:0.0166590663,((WP_435982576.1|Yokenella_regensburgei:0.0660231161,(WP_509390844.1|Klebsiella_pneumoniae:0.1124031332,WP_497766361.1|Kluyvera_fluvialis:0.0632573314)76/99:0.0250792317)74.9/100:0.0103930020,WP_472681345.1|Pluralibacter_gergoviae:0.1168263039)90.7/97:0.0412474257)88.5/97:0.0218623275,(WP_509190099.1|Enterobacter_roggenkampii:0.0448435138,(WP_490768032.1|Kosakonia_cowanii:0.1204961044,(WP_437431007.1|Enterobacteriaceae:0.1226234998,WP_499056736.1|Phytobacter_ursingii:0.0672233797)98.5/100:0.0624782234)100/100:0.0945122105)91.1/97:0.0167209249)89.4/96:0.0245566299,WP_103823496.1|unclassified_Leclercia:0.0619542231)96.2/100:0.0411290246,WP_509483209.1|Cronobacter_sakazakii:0.1136243090)55.2/98:0.0237399882,WP_085541943.1|Cedecea_sp_NFIX57:0.0726523021)97/99:0.1026667493,WP_320530243.1|Leclercia:0.1310304577)100/100:0.5103153434,((WP_472943011.1|Yersinia_enterocolitica:0.5081771789,WP_446469856.1|Xenorhabdus_stockiae:0.4863464663)99.1/100:0.3291114747,WP_509059176.1|Morganella_morganii:0.4694593267)93.8/99:0.2589663922)99.4/100:0.4205584739)80.7/78:0.1240298198,WP_432481764.1|Moraxella_sp_ZY200743:1.3716405608)99.4/100:0.5305216079,((((WP_008502676.1|Enterobacter:0.1526910456,WP_133632104.1|Lelliottia_sp:0.0792910455)96.2/100:0.1950354282,WP_481637740.1|Franconibacter_pulveris:0.2269815230)100/100:0.7657406169,(WP_489146167.1|Hafnia_paralvei:0.7367663265,(WP_112204947.1|Kluyvera_cryocrescens:0.3016572147,WP_503489110.1|Buttiauxella_cochleicola:0.2547654037)98.7/100:0.3290191615)97.2/100:0.3046858215)80.7/98:0.1876609816,(((WP_490535502.1|Proteus_mirabilis:0.0820079754,WP_069369415.1|Enterobacterales:0.2075376376)89/100:0.0972180467,WP_493609079.1|Providencia_manganoxydans:0.3370959087)99.6/100:0.2793025654,WP_132353712.1|Photorhabdus_khanii:0.2744053691)99.9/100:0.5675963239)99.1/100:0.3905004669)92.9/100:0.3492173074)99.3/100:0.6635860681)99.4/100:0.4027069620,(WP_506355363.1|Shewanella_sp:0.5202756102,WP_498358912.1|Shewanella_frigidimarina:0.1926023389)99.6/100:0.3645652780)73.7/61:0.0729910959,(WP_220053229.1|Shewanella:0.0620636911,MCR-4.1|NG_057470.1:0.1320589150)100/100:0.3882547589)96.1/62:0.1126495183,WP_497148305.1|Plesiomonas_shigelloides:0.3811053816)79.3/59:0.0663225450,(((((WP_261396260.1|Citrobacter_freundii:0.0000026934,MCR-9.1|MK070339:0.0000026795)98.9/100:0.0700409779,(WP_232921000.1|Buttiauxella_cochleicola:0.0741637088,MCR-10.1|NG_066767.1:0.0846693089)54.7/98:0.0286210156)99.9/100:0.1589394350,((((WP_499756849.1|Aeromonas_rivipollensis:0.1354210262,WP_508945341.1|Aeromonas_sobria:0.0799519845)93.4/100:0.0416480763,WP_499669208.1|Aeromonas_jandaei:0.0590002307)100/100:0.2495894979,MCR-7.1|NG_056413.1:0.0373076022)98.4/100:0.1452506437,MCR-3.1|NG_055505.1:0.1948831527)97.7/100:0.1208638881)97.7/100:0.1250944053,((WP_496226078.1|Hafnia_alvei:0.1796493055,WP_493767314.1|Edwardsiella_tarda:0.2673280232)96.7/100:0.1061002387,(WP_504432666.1|Rahnella_perminowiae:0.1553309547,WP_496202703.1|Ewingella_sp_AOP9-I1-14:0.1265068863)99.3/100:0.1490790740)99.4/100:0.1469169647)91/90:0.0556549838,((((WP_509676488.1|Vibrio_metoecus:0.0871393340,WP_509654125.1|Vibrio_cholerae:0.1396360151)28.4/79:0.0257754771,WP_509684683.1|Vibrio_mimicus:0.0545187516)100/100:0.2583382568,(WP_509683000.1|Vibrio_navarrensis:0.1613923758,WP_509680243.1|Vibrio_vulnificus:0.3284971028)62.9/97:0.0751752391)99.5/100:0.2052176125,WP_497148372.1|Plesiomonas_shigelloides:0.3279361755)11.3/59:0.0492221877)38.9/75:0.0975625201)68.7/56:0.0971063935,(WP_002216735.1|Neisseria:0.3519906948,WP_463199511.1|Moraxella_sp_I5G:0.4191901219)100/100:0.4631519432)70.1/85:0.0946222654,MCR-8.1|NG_061399.1:0.5591849478)84.8/89:0.0900691150,((((((WP_490288700.1|Faucicola_osloensis:0.0011883543,WP_284034866.1|Moraxellaceae:0.0089350892)99.6/100:0.2068098892,(MCR-1.1|NG_050417.1:0.1084472539,(MCR-2.1|NG_051171.1:0.0387308064,MCR-6.1|NG_055781.1:0.0428066987)91.2/100:0.0462602464)95.8/100:0.1450160074)100/100:0.5512261282,WP_507244468.1|Campylobacter_sp:0.4350530757)98.5/100:0.2326844827,WP_363510943.1|Burkholderia_sp_LMU1-1-11:0.4989772641)33.1/87:0.0761661444,(WP_224042345.1|Cupriavidus_respiraculi:0.4977969898,((WP_507779059.1|Pseudomonas_sp_RC25-4:0.1053650661,(WP_103696839.1|Pseudomonadota:0.1379273314,WP_498980395.1|Gammaproteobacteria:0.2505088377)90.3/93:0.0506671078)59.3/93:0.0424371540,WP_499084076.1|Lelliottia_jeotgali:0.2061650551)99.8/100:0.2429105734)98.8/99:0.1808512663)86.3/92:0.1010546703,(((((WP_227311958.1|Cupriavidus_sp_MP-37:0.1925747173,WP_454751270.1|Cupriavidus:0.0899908796)100/100:0.4266776352,MCR-5.1|NG_055658.1:0.5251326857)99.8/100:0.2625918202,WP_463893905.1|Pseudomonas:0.4557441878)79.3/95:0.0525701541,MCR-12.1|NG_245195.1:0.8367446984)58.5/93:0.0593574049,WP_509126031.1|Acinetobacter_kookii:0.7203798721)5.9/45:0.0355714647)97.6/96:0.1274695764)98.6/95:0.1513160857,((WP_442820864.1|Yersinia:0.1242644255,WP_509188741.1|Serratia_rubidaea:0.1651023535)97.2/100:0.1090682955,(WP_280172752.1|Enterobacterales:0.2326824720,((WP_320529772.1|Leclercia:0.0881966659,(WP_504339545.1|Lelliottia_sp:0.1114374839,WP_455507789.1|Enterobacter:0.0683044336)70.2/100:0.0404605463)98.8/100:0.1112513152,(WP_232863754.1|Buttiauxella_cochleicola:0.1439885912,WP_498532122.1|Cedecea_sp_Ae19-4:0.0831721049)18.9/88:0.0653338248)100/100:0.1630297063)36/85:0.0711016646)98.9/100:0.1512330271)99.1/100:0.1721000634,(WP_039484537.1|Pectobacterium_parvum:0.1603169031,WP_210182583.1|Dickeya_parazeae:0.2057639253)87.4/98:0.0870569170)100/100:0.1996123091,(WP_509425983.1|Cronobacter_turicensis:0.0518186027,WP_509065747.1|Pantoea_brenneri:0.1583577592)99.3/100:0.1270416841)7.2/47:0.0126741059,WP_338463516.1|Franconibacter:0.2347155969)52.8/51:0.0370807644,(WP_508824434.1|Erwinia_sp_VRR173:0.1376486215,WP_038020592.1|Tatumella_morbirosei:0.2203387405)96.9/54:0.0677007850)95.6/96:0.0589005727,(((WP_509045700.1|Klebsiella_ornithinolytica:0.1360721235,(WP_472681338.1|Pluralibacter_gergoviae:0.2378208373,WP_497766411.1|Kluyvera_fluvialis:0.1588295603)9.1/40:0.0226778001)80/55:0.0335009770,(WP_490767992.1|Kosakonia_cowanii:0.1822924356,WP_437430954.1|Enterobacteriaceae:0.0848311760)92.9/90:0.0431203526)69.4/53:0.0167064031,WP_506698367.1|Phytobacter_diazotrophicus:0.0850661803)94.4/66:0.0483895841)98.6/98:0.0781935729,(((WP_509467498.1|Salmonella_enterica:0.0000025538,WP_503987387.1|Salmonella_enterica:0.0033048683)99/100:0.0647797896,(WP_509401980.1|Citrobacter_freundii:0.0256131629,WP_155021951.1|Citrobacter_pasteurii:0.0204942467)99.9/100:0.0767832491)21.9/86:0.0195618043,WP_508667667.1|Citrobacter_sedlakii:0.0825482897)71.4/91:0.0201900973)99.9/100:0.0751293328,WP_508921828.1|Escherichia_coli:0.0000033036)80.3/98:0.0033764192,WP_508977199.1|Escherichia_coli:0.0033731022)0/83:0.0000033389,WP_509412112.1|Escherichia_coli:0.0033761118)0/90:0.0000013407,WP_001309144.1|Pseudomonadati:0.0000033795);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -44382.307458
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--NP_418538.2|Escherichia_coli_str_K-12_substr_MG1655
+|
+|                                                                                                             +**NP_418002.2|Escherichia_coli_str_K-12_substr_MG1655
+|                                                                                                          +--|
+|                                                                                                          |  +**WP_001269196.1|Pseudomonadati
+|                                                                                                       +--| (53)
+|                                                                                                       |  +--WP_508920581.1|Escherichia_coli
+|                                                                                                    +--| (98)
+|                                                                                                    |  +--WP_509059624.1|Escherichia_coli
+|                                                                                                 +--| (90)
+|                                                                                                 |  |           +--WP_504970690.1|Salmonella_enterica
+|                                                                                                 |  |        +--| (100)
+|                                                                                                 |  |        |  +--WP_504359529.1|Salmonella_enterica
+|                                                                                                 |  |     +--| (100)
+|                                                                                                 |  |     |  |  +--WP_503987587.1|Salmonella_enterica
+|                                                                                                 |  |     |  +--| (90)
+|                                                                                                 |  |     |     +--WP_503703873.1|Salmonella_enterica
+|                                                                                                 |  |  +--| (98)
+|                                                                                                 |  |  |  +--WP_497768878.1|Kluyvera_fluvialis
+|                                                                                                 |  +--| (99)
+|                                                                                                 |     +--WP_509402429.1|Citrobacter_freundii
+|                                                                                              +--| (81)
+|                                                                                              |  +--WP_508669306.1|Citrobacter_sedlakii
+|                                                                                           +--| (73)
+|                                                                                           |  |  +--WP_508222309.1|Enterobacter_kobei
+|                                                                                           |  +--| (84)
+|                                                                                           |     +--WP_312998569.1|Leclercia
+|                                                                                        +--| (84)
+|                                                                                        |  |  +--WP_490767110.1|Kosakonia_cowanii
+|                                                                                        |  +--| (98)
+|                                                                                        |     |     +--WP_437434076.1|Enterobacteriaceae
+|                                                                                        |     |  +--| (95)
+|                                                                                        |     |  |  +--WP_499059346.1|Phytobacter_ursingii
+|                                                                                        |     +--| (96)
+|                                                                                        |        +--WP_430892645.1|Kosakonia_sp_N21
+|                                                                                     +--| (100)
+|                                                                                     |  |  +--WP_509427568.1|Cronobacter_universalis
+|                                                                                     |  +--| (100)
+|                                                                                     |     +--WP_481637702.1|Franconibacter_pulveris
+|                                                                                  +--| (99)
+|                                                                                  |  +--WP_232922310.1|Buttiauxella_cochleicola
+|                                                                               +--| (100)
+|                                                                               |  +--WP_336819346.1|Enterobacteriaceae
+|                                                                            +--| (91)
+|                                                                            |  |  +--WP_416250066.1|Erwinia_sp_PPS120
+|                                                                            |  +--| (67)
+|                                                                            |     |     +--WP_304372782.1|Tatumella_ptyseos
+|                                                                            |     |  +--| (95)
+|                                                                            |     |  |  |     +--WP_294901111.1|Tatumella_sp_UBA2305
+|                                                                            |     |  |  |  +--| (100)
+|                                                                            |     |  |  |  |  +--WP_212708183.1|Tatumella
+|                                                                            |     |  |  +--| (100)
+|                                                                            |     |  |     +--WP_212714918.1|Tatumella
+|                                                                            |     +--| (51)
+|                                                                            |        +--WP_503034493.1|Pantoea_dispersa
+|                                                                         +--| (78)
+|                                                                         |  |  +--WP_012004603.1|Enterobacterales
+|                                                                         |  +--| (91)
+|                                                                         |     +--WP_106440961.1|Yersinia_pseudotuberculosis_complex
+|                                                                      +--| (87)
+|                                                                      |  |  +--WP_497230535.1|Hafnia_psychrotolerans
+|                                                                      |  +--| (100)
+|                                                                      |     +--WP_496203258.1|Ewingella_sp_AOP9-I1-14
+|                                                                   +--| (100)
+|                                                                   |  |  +--WP_503275303.1|Dickeya_dadantii
+|                                                                   |  +--| (100)
+|                                                                   |     +--WP_165708168.1|Pectobacterium_parvum
+|                                                                +--| (99)
+|                                                                |  +--WP_069368207.1|Enterobacterales
+|                                                          +-----| (100)
+|                                                          |     +--WP_509059598.1|Morganella_morganii
+|                                                      +---| (96)
+|                                                      |   +----------------------------------WP_321178176.1|Neisseriaceae
+|                                                  +---| (100)
+|                                                  |   |                                    +--NP_418390.1|Escherichia_coli_str_K-12_substr_MG1655
+|                                                  |   |                                 +--| (100)
+|                                                  |   |                                 |  +--WP_369492371.1|Salmonella_enterica
+|                                                  |   |                              +--| (93)
+|                                                  |   |                              |  +--WP_504686596.1|Pluralibacter_gergoviae
+|                                                  |   |                           +--| (100)
+|                                                  |   |                           |  +--WP_494494284.1|Cedecea_sp_B14
+|                                                  |   |                        +--| (99)
+|                                                  |   |                        |  |  +--WP_039485950.1|Pectobacterium_parvum
+|                                                  |   |                        |  +--| (99)
+|                                                  |   |                        |     +--WP_506500245.1|Providencia_hangzhouensis
+|                                                  |   |                     +--| (98)
+|                                                  |   |                     |  |  +--WP_499239275.1|Rahnella_variigena
+|                                                  |   |                     |  +--| (100)
+|                                                  |   |                     |     +--WP_507560833.1|Pseudomonas_sp
+|                                                  |   |         +-----------| (100)
+|                                                  |   |         |           +--WP_498979891.1|Gammaproteobacteria
+|                                                  |   |      +--| (100)
+|                                                  |   |      |  +-------------------WP_508931853.1|Campylobacter_sp
+|                                                  |   +------| (100)
+|                                                  |          |                             +--WP_509374736.1|Escherichia_coli
+|                                                  |          |                          +--| (72)
+|                                                  |          |                          |  +--WP_135171872.1|Enterobacteriaceae
+|                                                  |          |              +-----------| (100)
+|                                                  |          |              |           +--WP_508475707.1|Escherichia_coli
+|                                                  |          |           +--| (76)
+|                                                  |          |           |  +---------WP_506159706.1|Serratia_marcescens
+|                                                  |          |        +--| (78)
+|                                                  |          |        |  |                                +--WP_509060339.1|Escherichia_coli
+|                                                  |          |        |  |                             +--| (95)
+|                                                  |          |        |  |                             |  +--WP_032217775.1|Enterobacteriaceae
+|                                                  |          |        |  |                          +--| (100)
+|                                                  |          |        |  |                          |  |        +**WP_001550877.1|Pseudomonadati
+|                                                  |          |        |  |                          |  |     +--|
+|                                                  |          |        |  |                          |  |     |  +**WP_113228290.1|Enterobacteriaceae
+|                                                  |          |        |  |                          |  |  +--| (100)
+|                                                  |          |        |  |                          |  |  |  +--WP_137503927.1|Enterobacteriaceae
+|                                                  |          |        |  |                          |  +--| (82)
+|                                                  |          |        |  |                          |     +--WP_042201572.1|Enterobacteriaceae
+|                                                  |          |        |  |                       +--| (98)
+|                                                  |          |        |  |                       |  |  +--WP_505564214.1|Salmonella_enterica
+|                                                  |          |        |  |                       |  +--| (88)
+|                                                  |          |        |  |                       |     |  +--WP_508668222.1|Citrobacter_sedlakii
+|                                                  |          |        |  |                       |     +--| (95)
+|                                                  |          |        |  |                       |        +--WP_155020850.1|Citrobacter
+|                                                  |          |        |  |                    +--| (97)
+|                                                  |          |        |  |                    |  |     +--WP_435982576.1|Yokenella_regensburgei
+|                                                  |          |        |  |                    |  |  +--| (100)
+|                                                  |          |        |  |                    |  |  |  |  +--WP_509390844.1|Klebsiella_pneumoniae
+|                                                  |          |        |  |                    |  |  |  +--| (99)
+|                                                  |          |        |  |                    |  |  |     +--WP_497766361.1|Kluyvera_fluvialis
+|                                                  |          |        |  |                    |  +--| (97)
+|                                                  |          |        |  |                    |     +--WP_472681345.1|Pluralibacter_gergoviae
+|                                                  |          |        |  |                 +--| (96)
+|                                                  |          |        |  |                 |  |  +--WP_509190099.1|Enterobacter_roggenkampii
+|                                                  |          |        |  |                 |  +--| (97)
+|                                                  |          |        |  |                 |     |  +--WP_490768032.1|Kosakonia_cowanii
+|                                                  |          |        |  |                 |     +--| (100)
+|                                                  |          |        |  |                 |        |  +--WP_437431007.1|Enterobacteriaceae
+|                                                  |          |        |  |                 |        +--| (100)
+|                                                  |          |        |  |                 |           +--WP_499056736.1|Phytobacter_ursingii
+|                                                  |          |        |  |              +--| (100)
+|                                                  |          |        |  |              |  +--WP_103823496.1|unclassified_Leclercia
+|                                                  |          |        |  |           +--| (98)
+|                                                  |          |        |  |           |  +--WP_509483209.1|Cronobacter_sakazakii
+|                                                  |          |        |  |        +--| (99)
+|                                                  |          |        |  |        |  +--WP_085541943.1|Cedecea_sp_NFIX57
+|                                                  |          |        |  |   +----| (100)
+|                                                  |          |        |  |   |    +--WP_320530243.1|Leclercia
+|                                                  |          |        |  +---| (100)
+|                                                  |          |        |      |     +----WP_472943011.1|Yersinia_enterocolitica
+|                                                  |          |        |      |  +--| (100)
+|                                                  |          |        |      |  |  +----WP_446469856.1|Xenorhabdus_stockiae
+|                                                  |          |        |      +--| (99)
+|                                                  |          |        |         +----WP_509059176.1|Morganella_morganii
+|                                                  |          |  +-----| (100)
+|                                                  |          |  |     +--------------WP_432481764.1|Moraxella_sp_ZY200743
+|                                                  |          +--| (100)
+|                                                  |             |                 +--WP_008502676.1|Enterobacter
+|                                                  |             |              +--| (100)
+|                                                  |             |              |  +--WP_133632104.1|Lelliottia_sp
+|                                                  |             |      +-------| (100)
+|                                                  |             |      |       +--WP_481637740.1|Franconibacter_pulveris
+|                                                  |             |   +--| (98)
+|                                                  |             |   |  |  +-------WP_489146167.1|Hafnia_paralvei
+|                                                  |             |   |  +--| (100)
+|                                                  |             |   |     |  +--WP_112204947.1|Kluyvera_cryocrescens
+|                                                  |             |   |     +--| (100)
+|                                                  |             |   |        +--WP_503489110.1|Buttiauxella_cochleicola
+|                                                  |             +---| (100)
+|                                                  |                 |           +--WP_490535502.1|Proteus_mirabilis
+|                                                  |                 |        +--| (100)
+|                                                  |                 |        |  +--WP_069369415.1|Enterobacterales
+|                                                  |                 |     +--| (100)
+|                                                  |                 |     |  +--WP_493609079.1|Providencia_manganoxydans
+|                                                  |                 +-----| (100)
+|                                                  |                       +--WP_132353712.1|Photorhabdus_khanii
+|                                               +--| (61)
+|                                               |  |   +----WP_506355363.1|Shewanella_sp
+|                                               |  +---| (100)
+|                                               |      +--WP_498358912.1|Shewanella_frigidimarina
+|                                            +--| (62)
+|                                            |  |   +--WP_220053229.1|Shewanella
+|                                            |  +---| (100)
+|                                            |      +--MCR-4.1|NG_057470.1
+|                                         +--| (59)
+|                                         |  +---WP_497148305.1|Plesiomonas_shigelloides
+|                                      +--| (56)
+|                                      |  |              +--WP_261396260.1|Citrobacter_freundii
+|                                      |  |           +--| (100)
+|                                      |  |           |  +--MCR-9.1|MK070339
+|                                      |  |        +--| (100)
+|                                      |  |        |  |  +--WP_232921000.1|Buttiauxella_cochleicola
+|                                      |  |        |  +--| (98)
+|                                      |  |        |     +--MCR-10.1|NG_066767.1
+|                                      |  |     +--| (100)
+|                                      |  |     |  |           +--WP_499756849.1|Aeromonas_rivipollensis
+|                                      |  |     |  |        +--| (100)
+|                                      |  |     |  |        |  +--WP_508945341.1|Aeromonas_sobria
+|                                      |  |     |  |     +--| (100)
+|                                      |  |     |  |     |  +--WP_499669208.1|Aeromonas_jandaei
+|                                      |  |     |  |  +--| (100)
+|                                      |  |     |  |  |  +--MCR-7.1|NG_056413.1
+|                                      |  |     |  +--| (100)
+|                                      |  |     |     +--MCR-3.1|NG_055505.1
+|                                      |  |  +--| (90)
+|                                      |  |  |  |     +--WP_496226078.1|Hafnia_alvei
+|                                      |  |  |  |  +--| (100)
+|                                      |  |  |  |  |  +--WP_493767314.1|Edwardsiella_tarda
+|                                      |  |  |  +--| (100)
+|                                      |  |  |     |  +--WP_504432666.1|Rahnella_perminowiae
+|                                      |  |  |     +--| (100)
+|                                      |  |  |        +--WP_496202703.1|Ewingella_sp_AOP9-I1-14
+|                                      |  +--| (75)
+|                                      |     |           +--WP_509676488.1|Vibrio_metoecus
+|                                      |     |        +--| (79)
+|                                      |     |        |  +--WP_509654125.1|Vibrio_cholerae
+|                                      |     |     +--| (100)
+|                                      |     |     |  +--WP_509684683.1|Vibrio_mimicus
+|                                      |     |  +--| (100)
+|                                      |     |  |  |  +--WP_509683000.1|Vibrio_navarrensis
+|                                      |     |  |  +--| (97)
+|                                      |     |  |     +--WP_509680243.1|Vibrio_vulnificus
+|                                      |     +--| (59)
+|                                      |        +--WP_497148372.1|Plesiomonas_shigelloides
+|                                   +--| (85)
+|                                   |  |    +---WP_002216735.1|Neisseria
+|                                   |  +----| (100)
+|                                   |       +---WP_463199511.1|Moraxella_sp_I5G
+|                                +--| (89)
+|                                |  +-----MCR-8.1|NG_061399.1
+|                             +--| (95)
+|                             |  |                    +--WP_490288700.1|Faucicola_osloensis
+|                             |  |                 +--| (100)
+|                             |  |                 |  +--WP_284034866.1|Moraxellaceae
+|                             |  |           +-----| (100)
+|                             |  |           |     |  +--MCR-1.1|NG_050417.1
+|                             |  |           |     +--| (100)
+|                             |  |           |        |  +--MCR-2.1|NG_051171.1
+|                             |  |           |        +--| (100)
+|                             |  |           |           +--MCR-6.1|NG_055781.1
+|                             |  |        +--| (100)
+|                             |  |        |  +---WP_507244468.1|Campylobacter_sp
+|                             |  |     +--| (87)
+|                             |  |     |  +----WP_363510943.1|Burkholderia_sp_LMU1-1-11
+|                             |  |  +--| (92)
+|                             |  |  |  |  +----WP_224042345.1|Cupriavidus_respiraculi
+|                             |  |  |  +--| (99)
+|                             |  |  |     |     +--WP_507779059.1|Pseudomonas_sp_RC25-4
+|                             |  |  |     |  +--| (93)
+|                             |  |  |     |  |  |  +--WP_103696839.1|Pseudomonadota
+|                             |  |  |     |  |  +--| (93)
+|                             |  |  |     |  |     +--WP_498980395.1|Gammaproteobacteria
+|                             |  |  |     +--| (100)
+|                             |  |  |        +--WP_499084076.1|Lelliottia_jeotgali
+|                             |  +--| (96)
+|                             |     |               +--WP_227311958.1|Cupriavidus_sp_MP-37
+|                             |     |           +---| (100)
+|                             |     |           |   +--WP_454751270.1|Cupriavidus
+|                             |     |        +--| (100)
+|                             |     |        |  +-----MCR-5.1|NG_055658.1
+|                             |     |     +--| (95)
+|                             |     |     |  +----WP_463893905.1|Pseudomonas
+|                             |     |  +--| (93)
+|                             |     |  |  +--------MCR-12.1|NG_245195.1
+|                             |     +--| (45)
+|                             |        +-------WP_509126031.1|Acinetobacter_kookii
+|                          +--| (100)
+|                          |  |     +--WP_442820864.1|Yersinia
+|                          |  |  +--| (100)
+|                          |  |  |  +--WP_509188741.1|Serratia_rubidaea
+|                          |  +--| (100)
+|                          |     |  +--WP_280172752.1|Enterobacterales
+|                          |     +--| (85)
+|                          |        |     +--WP_320529772.1|Leclercia
+|                          |        |  +--| (100)
+|                          |        |  |  |  +--WP_504339545.1|Lelliottia_sp
+|                          |        |  |  +--| (100)
+|                          |        |  |     +--WP_455507789.1|Enterobacter
+|                          |        +--| (100)
+|                          |           |  +--WP_232863754.1|Buttiauxella_cochleicola
+|                          |           +--| (88)
+|                          |              +--WP_498532122.1|Cedecea_sp_Ae19-4
+|                       +--| (100)
+|                       |  |  +--WP_039484537.1|Pectobacterium_parvum
+|                       |  +--| (98)
+|                       |     +--WP_210182583.1|Dickeya_parazeae
+|                    +--| (47)
+|                    |  |  +--WP_509425983.1|Cronobacter_turicensis
+|                    |  +--| (100)
+|                    |     +--WP_509065747.1|Pantoea_brenneri
+|                 +--| (51)
+|                 |  +--WP_338463516.1|Franconibacter
+|              +--| (96)
+|              |  |  +--WP_508824434.1|Erwinia_sp_VRR173
+|              |  +--| (54)
+|              |     +--WP_038020592.1|Tatumella_morbirosei
+|           +--| (98)
+|           |  |        +--WP_509045700.1|Klebsiella_ornithinolytica
+|           |  |     +--| (55)
+|           |  |     |  |  +--WP_472681338.1|Pluralibacter_gergoviae
+|           |  |     |  +--| (40)
+|           |  |     |     +--WP_497766411.1|Kluyvera_fluvialis
+|           |  |  +--| (53)
+|           |  |  |  |  +--WP_490767992.1|Kosakonia_cowanii
+|           |  |  |  +--| (90)
+|           |  |  |     +--WP_437430954.1|Enterobacteriaceae
+|           |  +--| (66)
+|           |     +--WP_506698367.1|Phytobacter_diazotrophicus
+|        +--| (100)
+|        |  |        +--WP_509467498.1|Salmonella_enterica
+|        |  |     +--| (100)
+|        |  |     |  +--WP_503987387.1|Salmonella_enterica
+|        |  |  +--| (86)
+|        |  |  |  |  +--WP_509401980.1|Citrobacter_freundii
+|        |  |  |  +--| (100)
+|        |  |  |     +--WP_155021951.1|Citrobacter_pasteurii
+|        |  +--| (91)
+|        |     +--WP_508667667.1|Citrobacter_sedlakii
+|     +--| (98)
+|     |  +--WP_508921828.1|Escherichia_coli
+|  +--| (83)
+|  |  +--WP_508977199.1|Escherichia_coli
++--| (90)
+|  +--WP_509412112.1|Escherichia_coli
+|
++--WP_001309144.1|Pseudomonadati
+
+
+Consensus tree in newick format: 
+
+(NP_418538.2|Escherichia_coli_str_K-12_substr_MG1655:0.0000025649,(((((((((((((((((((((((((((((((((((NP_418002.2|Escherichia_coli_str_K-12_substr_MG1655:0.0000000000,WP_001269196.1|Pseudomonadati:0.0000000000):0.0000025649,WP_508920581.1|Escherichia_coli:0.0000025649)53:0.0000025649,WP_509059624.1|Escherichia_coli:0.0032651761)98:0.0144595914,((((WP_504970690.1|Salmonella_enterica:0.0000025649,WP_504359529.1|Salmonella_enterica:0.0000025649)100:0.0064157784,(WP_503987587.1|Salmonella_enterica:0.0000025649,WP_503703873.1|Salmonella_enterica:0.0000025649)90:0.0001151145)100:0.0182658946,WP_497768878.1|Kluyvera_fluvialis:0.1902466115)98:0.0185583259,WP_509402429.1|Citrobacter_freundii:0.0934831068)99:0.0367157783)90:0.0278241019,WP_508669306.1|Citrobacter_sedlakii:0.1460524232)81:0.0219823315,(WP_508222309.1|Enterobacter_kobei:0.0915577213,WP_312998569.1|Leclercia:0.0222925827)84:0.0350395079)73:0.0170050604,(WP_490767110.1|Kosakonia_cowanii:0.0453973769,((WP_437434076.1|Enterobacteriaceae:0.0515968725,WP_499059346.1|Phytobacter_ursingii:0.0543497826)95:0.0219826125,WP_430892645.1|Kosakonia_sp_N21:0.0342719340)96:0.0258365738)98:0.0297762461)84:0.0472122484,(WP_509427568.1|Cronobacter_universalis:0.0912676819,WP_481637702.1|Franconibacter_pulveris:0.0580095170)100:0.0354237291)100:0.0985121837,WP_232922310.1|Buttiauxella_cochleicola:0.1059880084)99:0.0541449593,WP_336819346.1|Enterobacteriaceae:0.1167172825)100:0.1198145731,(WP_416250066.1|Erwinia_sp_PPS120:0.0638477318,((WP_304372782.1|Tatumella_ptyseos:0.3109277210,((WP_294901111.1|Tatumella_sp_UBA2305:0.0946345160,WP_212708183.1|Tatumella:0.0941896359)100:0.0742465900,WP_212714918.1|Tatumella:0.0659599359)100:0.0709011624)95:0.1092606339,WP_503034493.1|Pantoea_dispersa:0.0651888497)51:0.0305763734)67:0.0390265464)91:0.0602948844,(WP_012004603.1|Enterobacterales:0.0665917201,WP_106440961.1|Yersinia_pseudotuberculosis_complex:0.1058620852)91:0.0385268470)78:0.0301036150,(WP_497230535.1|Hafnia_psychrotolerans:0.0732796837,WP_496203258.1|Ewingella_sp_AOP9-I1-14:0.0809145332)100:0.0579415719)87:0.0230081318,(WP_503275303.1|Dickeya_dadantii:0.1909640115,WP_165708168.1|Pectobacterium_parvum:0.0655039358)100:0.0463197329)100:0.2986929399,WP_069368207.1|Enterobacterales:0.2504177708)99:0.1624198188,WP_509059598.1|Morganella_morganii:0.1849043239)100:0.5461882133,WP_321178176.1|Neisseriaceae:3.1218455020)96:0.3914785527,((((((((NP_418390.1|Escherichia_coli_str_K-12_substr_MG1655:0.0506807384,WP_369492371.1|Salmonella_enterica:0.0479674736)100:0.0101143284,WP_504686596.1|Pluralibacter_gergoviae:0.0848818253)93:0.0418503534,WP_494494284.1|Cedecea_sp_B14:0.1388662943)100:0.0976188085,(WP_039485950.1|Pectobacterium_parvum:0.2475344251,WP_506500245.1|Providencia_hangzhouensis:0.3483293318)99:0.1386289072)99:0.1589935744,(WP_499239275.1|Rahnella_variigena:0.0705251512,WP_507560833.1|Pseudomonas_sp:0.0777884359)100:0.2755506170)98:0.1382369621,WP_498979891.1|Gammaproteobacteria:0.1318920362)100:1.0726762110,WP_508931853.1|Campylobacter_sp:1.7743221790)100:0.2984960201,((((((WP_509374736.1|Escherichia_coli:0.0156457518,WP_135171872.1|Enterobacteriaceae:0.0152171019)72:0.0102228067,WP_508475707.1|Escherichia_coli:0.0094759267)100:1.0824163940,WP_506159706.1|Serratia_marcescens:0.8993039166)76:0.1466025859,((((((((((WP_509060339.1|Escherichia_coli:0.0066670284,WP_032217775.1|Enterobacteriaceae:0.0066313547)95:0.0033601199,(((WP_001550877.1|Pseudomonadati:0.0000000000,WP_113228290.1|Enterobacteriaceae:0.0000000000):0.0000025649,WP_137503927.1|Enterobacteriaceae:0.0000025649)100:0.0067110022,WP_042201572.1|Enterobacteriaceae:0.0033421895)82:0.0000025649)100:0.0818995165,(WP_505564214.1|Salmonella_enterica:0.0858972492,(WP_508668222.1|Citrobacter_sedlakii:0.0508481408,WP_155020850.1|Citrobacter:0.0776155052)95:0.0143614865)88:0.0155739204)98:0.0166065787,((WP_435982576.1|Yokenella_regensburgei:0.0658105484,(WP_509390844.1|Klebsiella_pneumoniae:0.1120380265,WP_497766361.1|Kluyvera_fluvialis:0.0630487607)99:0.0250079266)100:0.0103610351,WP_472681345.1|Pluralibacter_gergoviae:0.1164426657)97:0.0411256774)97:0.0217970730,(WP_509190099.1|Enterobacter_roggenkampii:0.0446987472,(WP_490768032.1|Kosakonia_cowanii:0.1201090806,(WP_437431007.1|Enterobacteriaceae:0.1222457539,WP_499056736.1|Phytobacter_ursingii:0.0670087870)100:0.0622834609)100:0.0942131579)97:0.0166742231)96:0.0244759782,WP_103823496.1|unclassified_Leclercia:0.0617595080)100:0.0409948293,WP_509483209.1|Cronobacter_sakazakii:0.1132613495)98:0.0236692514,WP_085541943.1|Cedecea_sp_NFIX57:0.0724246444)99:0.1022880242,WP_320530243.1|Leclercia:0.1306682443)100:0.5086018317,((WP_472943011.1|Yersinia_enterocolitica:0.5065984594,WP_446469856.1|Xenorhabdus_stockiae:0.4846850586)100:0.3282830501,WP_509059176.1|Morganella_morganii:0.4680676693)99:0.2582874319)100:0.4191693691)78:0.1237339587,WP_432481764.1|Moraxella_sp_ZY200743:1.3670556095)100:0.5290049628,((((WP_008502676.1|Enterobacter:0.1522211993,WP_133632104.1|Lelliottia_sp:0.0789974251)100:0.1943125060,WP_481637740.1|Franconibacter_pulveris:0.2263259046)100:0.7630690026,(WP_489146167.1|Hafnia_paralvei:0.7342095526,(WP_112204947.1|Kluyvera_cryocrescens:0.3008405959,WP_503489110.1|Buttiauxella_cochleicola:0.2537309542)100:0.3279765992)100:0.3037203664)98:0.1871504451,(((WP_490535502.1|Proteus_mirabilis:0.0818546052,WP_069369415.1|Enterobacterales:0.2067272169)100:0.0968701656,WP_493609079.1|Providencia_manganoxydans:0.3359645922)100:0.2783520337,WP_132353712.1|Photorhabdus_khanii:0.2735294090)100:0.5655357689)100:0.3895599832)100:0.3478981499)100:0.6613961561)100:0.4015461232,(WP_506355363.1|Shewanella_sp:0.5186593526,WP_498358912.1|Shewanella_frigidimarina:0.1920095667)100:0.3635776104)61:0.0726222656,(WP_220053229.1|Shewanella:0.0618982890,MCR-4.1|NG_057470.1:0.1316199825)100:0.3870630006)62:0.1123036330,WP_497148305.1|Plesiomonas_shigelloides:0.3799584338)59:0.0661415093,(((((WP_261396260.1|Citrobacter_freundii:0.0000025649,MCR-9.1|MK070339:0.0000028106)100:0.0698460817,(WP_232921000.1|Buttiauxella_cochleicola:0.0739433053,MCR-10.1|NG_066767.1:0.0844053768)98:0.0285357931)100:0.1584693676,((((WP_499756849.1|Aeromonas_rivipollensis:0.1350207605,WP_508945341.1|Aeromonas_sobria:0.0797126477)100:0.0415290624,WP_499669208.1|Aeromonas_jandaei:0.0588340740)100:0.2488283194,MCR-7.1|NG_056413.1:0.0372122517)100:0.1447983014,MCR-3.1|NG_055505.1:0.1943074334)100:0.1205023160)100:0.1247125262,((WP_496226078.1|Hafnia_alvei:0.1791244605,WP_493767314.1|Edwardsiella_tarda:0.2664718647)100:0.1057881642,(WP_504432666.1|Rahnella_perminowiae:0.1548874891,WP_496202703.1|Ewingella_sp_AOP9-I1-14:0.1261126890)100:0.1486203022)100:0.1464952422)90:0.0554865146,((((WP_509676488.1|Vibrio_metoecus:0.0868776728,WP_509654125.1|Vibrio_cholerae:0.1391961674)79:0.0256864016,WP_509684683.1|Vibrio_mimicus:0.0543810533)100:0.2575004668,(WP_509683000.1|Vibrio_navarrensis:0.1608912661,WP_509680243.1|Vibrio_vulnificus:0.3274928732)97:0.0750264794)100:0.2045702859,WP_497148372.1|Plesiomonas_shigelloides:0.3269111572)59:0.0491241377)75:0.0973745594)56:0.0968491849,(WP_002216735.1|Neisseria:0.3509586664,WP_463199511.1|Moraxella_sp_I5G:0.4178085104)100:0.4617019028)85:0.0943980472,MCR-8.1|NG_061399.1:0.5574688067)89:0.0898202838,((((((WP_490288700.1|Faucicola_osloensis:0.0011870878,WP_284034866.1|Moraxellaceae:0.0089077442)100:0.2063219393,(MCR-1.1|NG_050417.1:0.1081558819,(MCR-2.1|NG_051171.1:0.0386262398,MCR-6.1|NG_055781.1:0.0426829551)100:0.0461272662)100:0.1445439083)100:0.5496757008,WP_507244468.1|Campylobacter_sp:0.4338074312)100:0.2321320158,WP_363510943.1|Burkholderia_sp_LMU1-1-11:0.4974084252)87:0.0760464682,(WP_224042345.1|Cupriavidus_respiraculi:0.4964628498,((WP_507779059.1|Pseudomonas_sp_RC25-4:0.1050830686,(WP_103696839.1|Pseudomonadota:0.1375445826,WP_498980395.1|Gammaproteobacteria:0.2497711053)93:0.0505294036)93:0.0423052391,WP_499084076.1|Lelliottia_jeotgali:0.2055959689)100:0.2420996831)99:0.1804237205)92:0.1007945562,(((((WP_227311958.1|Cupriavidus_sp_MP-37:0.1920513730,WP_454751270.1|Cupriavidus:0.0897040729)100:0.4254436523,MCR-5.1|NG_055658.1:0.5236703730)100:0.2618853528,WP_463893905.1|Pseudomonas:0.4542823693)95:0.0525144362,MCR-12.1|NG_245195.1:0.8340899864)93:0.0593332051,WP_509126031.1|Acinetobacter_kookii:0.7181559602)45:0.0354811383)96:0.1271708191)95:0.1509036580,((WP_442820864.1|Yersinia:0.1239448766,WP_509188741.1|Serratia_rubidaea:0.1646310623)100:0.1087554199,(WP_280172752.1|Enterobacterales:0.2320241874,((WP_320529772.1|Leclercia:0.0879625447,(WP_504339545.1|Lelliottia_sp:0.1111397621,WP_455507789.1|Enterobacter:0.0681128307)100:0.0403554233)100:0.1109175695,(WP_232863754.1|Buttiauxella_cochleicola:0.1435960165,WP_498532122.1|Cedecea_sp_Ae19-4:0.0829379743)88:0.0652035623)100:0.1625614347)85:0.0709722235)100:0.1508505808)100:0.1716333242,(WP_039484537.1|Pectobacterium_parvum:0.1599233976,WP_210182583.1|Dickeya_parazeae:0.2051896300)98:0.0868343833)100:0.1990381381,(WP_509425983.1|Cronobacter_turicensis:0.0517171759,WP_509065747.1|Pantoea_brenneri:0.1579105462)100:0.1267117349)47:0.0126671246,WP_338463516.1|Franconibacter:0.2340691892)51:0.0369765390,(WP_508824434.1|Erwinia_sp_VRR173:0.1372802761,WP_038020592.1|Tatumella_morbirosei:0.2197285225)54:0.0675637645)96:0.0587623207,(((WP_509045700.1|Klebsiella_ornithinolytica:0.1356944186,(WP_472681338.1|Pluralibacter_gergoviae:0.2371817551,WP_497766411.1|Kluyvera_fluvialis:0.1583929681)40:0.0226318194)55:0.0334312410,(WP_490767992.1|Kosakonia_cowanii:0.1818156248,WP_437430954.1|Enterobacteriaceae:0.0845804389)90:0.0430154805)53:0.0166811831,WP_506698367.1|Phytobacter_diazotrophicus:0.0848285663)66:0.0482727099)98:0.0779776121,(((WP_509467498.1|Salmonella_enterica:0.0000025649,WP_503987387.1|Salmonella_enterica:0.0032960804)100:0.0646126509,(WP_509401980.1|Citrobacter_freundii:0.0255478833,WP_155021951.1|Citrobacter_pasteurii:0.0204423273)100:0.0765764193)86:0.0195117731,WP_508667667.1|Citrobacter_sedlakii:0.0823333745)91:0.0201589009)100:0.0749186280,WP_508921828.1|Escherichia_coli:0.0000025649)98:0.0033674934,WP_508977199.1|Escherichia_coli:0.0033640828)83:0.0000025649,WP_509412112.1|Escherichia_coli:0.0033670896)90:0.0000025649,WP_001309144.1|Pseudomonadati:0.0000025649);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t ml.treefile -m "LG+F+I{0.0341156}+R6{0.0551111,0.101807,0.18272,0.278142,0.262579,0.607214,0.236329,1.12738,0.159768,1.92406,0.0693769,3.0311}" --length 313
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s aln_automated1.faa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s aln_automated1.faa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun Sep 20 13:35:01 2026
+Total CPU time used: 3895.504188 seconds (1h:4m:55s)
+Total wall-clock time used: 2216.883421 seconds (0h:36m:56s)
+
