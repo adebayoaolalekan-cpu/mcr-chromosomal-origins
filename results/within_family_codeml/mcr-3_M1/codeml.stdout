@@ -1,0 +1,20 @@
+
+error: end of tree file.CODONML in paml version 4.10.10, 29 Jan 2026
+
+
+     6560 bytes for distance
+   281088 bytes for conP
+     4608 bytes for fhK
+  5000000 bytes for space
+
+TREE #  1
+
+This is a rooted tree, without clock.  Check.
+
+  5621760 bytes for conP, adjusted
+
+ntime & nrate & np:    80     2    83
+Qfactor_NS = 5.158153
+Out..
+lnL  = -4695.567439
+15821 lfun, 47463 eigenQcodon, 2531360 P(t)

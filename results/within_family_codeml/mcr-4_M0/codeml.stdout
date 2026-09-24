@@ -1,0 +1,19 @@
+
+error: end of tree file.CODONML in paml version 4.10.10, 29 Jan 2026
+
+
+      288 bytes for distance
+   112240 bytes for conP
+        0 bytes for fhK
+  5000000 bytes for space
+
+TREE #  1
+(9, (((((((5, 4), 2), 1), 8), 6), 3), 7));   MP score: 74
+This is a rooted tree, without clock.  Check.
+
+   448960 bytes for conP, adjusted
+
+ntime & nrate & np:    16     2    18
+Out..
+lnL  = -2550.979805
+776 lfun, 776 eigenQcodon, 12416 P(t)
