@@ -1,0 +1,18 @@
+{
+  "title": "Analysis code for chromosomal phosphoethanolamine transferases as repeated and independent sources of mobilised colistin resistance in Enterobacterales",
+  "description": "Analysis code, alignments, trees, topology test output, ancestral state reconstructions, codeml runs and detection results supporting a comparative genomic study of chromosomal phosphoethanolamine transferases and the mobilised colistin resistance (mcr) gene families.",
+  "license": "MIT",
+  "upload_type": "software",
+  "creators": [
+    {"name": "Olalekan, Abass Adebayo", "affiliation": "Lagos State University of Education, Lagos, Nigeria"},
+    {"name": "Salami, Sahdat Ajoke"},
+    {"name": "Ayoola, Emmanuel Abiodun"},
+    {"name": "Jolaoluwa, Grace Tolulope"},
+    {"name": "Chukwu, Chinemerem Esther"},
+    {"name": "Ogundeji, Rebecca Omotoyosi"},
+    {"name": "Akinsanya, Munirat Adeola"},
+    {"name": "Damisa, Ebunoluwa Rachael"},
+    {"name": "Alagbe, Oluwasegun Adewale"}
+  ],
+  "keywords": ["antimicrobial resistance", "colistin", "mcr", "phosphoethanolamine transferase", "comparative genomics", "horizontal gene transfer", "One Health"]
+}
