@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: >-
+  Analysis code for chromosomal phosphoethanolamine transferases as repeated and
+  independent sources of mobilised colistin resistance in Enterobacterales
+message: If you use this software, please cite it using these metadata.
+type: software
+authors:
+  - given-names: Abass Adebayo
+    family-names: Olalekan
+    affiliation: Lagos State University of Education, Lagos, Nigeria
+  - given-names: Sahdat Ajoke
+    family-names: Salami
+  - given-names: Emmanuel Abiodun
+    family-names: Ayoola
+  - given-names: Grace Tolulope
+    family-names: Jolaoluwa
+  - given-names: Chinemerem Esther
+    family-names: Chukwu
+  - given-names: Rebecca Omotoyosi
+    family-names: Ogundeji
+  - given-names: Munirat Adeola
+    family-names: Akinsanya
+  - given-names: Ebunoluwa Rachael
+    family-names: Damisa
+  - given-names: Oluwasegun Adewale
+    family-names: Alagbe
+license: MIT
+version: 1.0.0
+date-released: "2026-09-25"
+keywords:
+  - antimicrobial resistance
+  - colistin
+  - mcr
+  - phosphoethanolamine transferase
+  - comparative genomics
+  - horizontal gene transfer
